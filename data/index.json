@@ -1,6 +1,24 @@
 {
   "books": [
     {
+      "id": "a-man-called-ove",
+      "title": "A Man Called Ove",
+      "author": "Daily Books",
+      "description": "A Man Called Ove: by Fredrik Backman | Conversation Starters There is a man who has lost all hope in life. He has been brought up to do the right thing but has never been able to show much emotion. After the death of his beloved wife, Ove has no reason to live. That is until an Iranian woman named Parwaneh shows up next door with her clumsy husband and two adorable daughters. Gradually, Ove realizes that as much as he misses his wife, he could contribute something to society and, in turn, gain f",
+      "totalWords": 2723,
+      "totalPages": 3,
+      "totalChapters": 36
+    },
+    {
+      "id": "a-touch-of-darkness",
+      "title": "A Touch of Darkness",
+      "author": "Scarlett St. Clair",
+      "description": "Persephone is the Goddess of Spring by title only. The truth is, since she was a little girl, flowers have shriveled at her touch. After moving to New Athens, she hopes to lead an unassuming life disguised as a mortal journalist. Hades, God of the Dead, has built a gambling empire in the mortal world and his favorite bets are rumored to be impossible. After a chance encounter with Hades, Persephone finds herself in a contract with the God of the Dead and the terms are impossible: Persephone must",
+      "totalWords": 89890,
+      "totalPages": 90,
+      "totalChapters": 31
+    },
+    {
       "id": "attached-are-you-anxious-avoidant-or-secure-how-the-science-of-adult-attachment-can-help-you-find-and-keep-love",
       "title": "Attached: Are you Anxious, Avoidant or Secure? How the science of adult attachment can help you find – and keep – love",
       "author": "Levine, Amir",
@@ -28,6 +46,33 @@
       "totalChapters": 58
     },
     {
+      "id": "forbidden-lyrics-wrecked-roommates",
+      "title": "Forbidden Lyrics (Wrecked Roommates)",
+      "author": "Kelsie Rae",
+      "description": "",
+      "totalWords": 99119,
+      "totalPages": 100,
+      "totalChapters": 46
+    },
+    {
+      "id": "forbidden-lyrics-wrecked-roommates",
+      "title": "Forbidden Lyrics (Wrecked Roommates)",
+      "author": "Kelsie Rae",
+      "description": "",
+      "totalWords": 99119,
+      "totalPages": 100,
+      "totalChapters": 46
+    },
+    {
+      "id": "fourth-wing",
+      "title": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "description": "Series: The Empyrean #1 Genre: Fantasy ebook, 492 pages Hardcover, 512 pages Published: 2023 Enter the brutal and elite world of a war college for dragon riders from USA Today bestselling author Rebecca Yarros Twenty-year-old Violet Sorrengail was supposed to enter the Scribe Quadrant, living a quiet life among books and history. Now, the commanding general—also known as her tough-as-talons mother—has ordered Violet to join the hundreds of candidates striving to become the elite of Navarre: drag",
+      "totalWords": 185463,
+      "totalPages": 186,
+      "totalChapters": 47
+    },
+    {
       "id": "godel-escher-bach-an-eternal-golden-braid",
       "title": "Godel, Escher, Bach-An Eternal Golden Braid",
       "author": "Douglas R. Hofstadter",
@@ -35,6 +80,15 @@
       "totalWords": 324196,
       "totalPages": 325,
       "totalChapters": 65
+    },
+    {
+      "id": "good-omens",
+      "title": "Good Omens",
+      "author": "Neil Gaiman",
+      "description": "The world will end on Saturday. Next Saturday. Just before dinner, according to The Nice and Accurate Prophecies of Agnes Nutter , Witch, the world's only completely accurate book of prophecies written in 1655. The armies of Good and Evil are amassing and everything appears to be going according to Divine Plan. Except that a somewhat fussy angel and a fast-living demon are not actually looking forward to the coming Rapture. And someone seems to have misplaced the Antichrist. Put New York Times b",
+      "totalWords": 113221,
+      "totalPages": 114,
+      "totalChapters": 46
     },
     {
       "id": "his-dark-materials-the-complete-trilogy",
@@ -53,6 +107,15 @@
       "totalWords": 195141,
       "totalPages": 196,
       "totalChapters": 40
+    },
+    {
+      "id": "hunting-adeline-cat-and-mouse-duet-book-2",
+      "title": "Hunting Adeline (Cat and Mouse Duet Book 2)",
+      "author": "H. D. Carlton",
+      "description": "",
+      "totalWords": 175743,
+      "totalPages": 176,
+      "totalChapters": 51
     },
     {
       "id": "learning-to-love-the-spaces-in-between",
@@ -80,6 +143,15 @@
       "totalWords": 119986,
       "totalPages": 120,
       "totalChapters": 24
+    },
+    {
+      "id": "lights-out-a-dark-stalker-rom-com",
+      "title": "Lights Out: A Dark Stalker Rom-Com",
+      "author": "Navessa Allen",
+      "description": "",
+      "totalWords": 137666,
+      "totalPages": 138,
+      "totalChapters": 32
     },
     {
       "id": "liminality-and-the-modern",
@@ -118,6 +190,15 @@
       "totalChapters": 35
     },
     {
+      "id": "neon-gods",
+      "title": "Neon Gods",
+      "author": "Katee Robert",
+      "description": "He was supposed to be a myth.But from the moment I crossed the River Styx and fell under his dark spell...he was, quite simply, mine.*A scorchingly hot modern retelling of Hades and Persephone that's as sinful as it is sweet.*Society darling Persephone Dimitriou plans to flee the ultra-modern city of Olympus and start over far from the backstabbing politics of the Thirteen Houses. But all that's ripped away when her mother ambushes her with an engagement to Zeus, the dangerous power behind their",
+      "totalWords": 103149,
+      "totalPages": 104,
+      "totalChapters": 39
+    },
+    {
       "id": "pratchett-terry-discworld-16-soul-music",
       "title": "Pratchett, Terry - Discworld 16 - Soul Music",
       "author": "Pratchett, Terry",
@@ -134,6 +215,15 @@
       "totalWords": 149588,
       "totalPages": 150,
       "totalChapters": 30
+    },
+    {
+      "id": "rook-rebel",
+      "title": "Rook & Rebel",
+      "author": "Kate Crew",
+      "description": "",
+      "totalWords": 103644,
+      "totalPages": 104,
+      "totalChapters": 49
     },
     {
       "id": "slaughterhouse-five-publisher-dell",
@@ -170,6 +260,24 @@
       "totalWords": 183212,
       "totalPages": 184,
       "totalChapters": 37
+    },
+    {
+      "id": "the-code-of-the-woosters",
+      "title": "The Code of the Woosters",
+      "author": "P.G. Wodehouse",
+      "description": "",
+      "totalWords": 76721,
+      "totalPages": 77,
+      "totalChapters": 15
+    },
+    {
+      "id": "the-daughter-of-sherlock-holmes-a-mystery",
+      "title": "The Daughter of Sherlock Holmes: A Mystery",
+      "author": "Leonard Goldberg",
+      "description": "2017 RT Reviewers' Choice—Best Historical MysteryFrom USA Today and internationally bestselling author Leonard Goldberg comes The Daughter of Sherlock Holmes, a new thrilling tale of the great detective’s daughter and her companion Dr. John Watson, Jr. as they investigate a murder at the highest levels of British society.1914. Joanna Blalock’s keen mind and incredible insight lead her to become a highly-skilled nurse, one of the few professions that allow her to use her finely-tuned brain. But w",
+      "totalWords": 79437,
+      "totalPages": 80,
+      "totalChapters": 32
     },
     {
       "id": "the-essence-of-chaos-the-jessie-and-john-danz-lecture",
@@ -224,6 +332,15 @@
       "totalWords": 55080,
       "totalPages": 56,
       "totalChapters": 24
+    },
+    {
+      "id": "the-ritual-a-dark-college-romance",
+      "title": "The Ritual: A Dark College Romance",
+      "author": "Tessier, Shantel",
+      "description": "",
+      "totalWords": 150055,
+      "totalPages": 151,
+      "totalChapters": 71
     },
     {
       "id": "the-snow-queen",
@@ -287,6 +404,15 @@
       "totalWords": 89366,
       "totalPages": 90,
       "totalChapters": 18
+    },
+    {
+      "id": "three-men-in-a-boat-amazonclassics-edition",
+      "title": "Three Men in a Boat (AmazonClassics Edition)",
+      "author": "Jerome, Jerome K.",
+      "description": "",
+      "totalWords": 66977,
+      "totalPages": 67,
+      "totalChapters": 23
     },
     {
       "id": "tomorrow-and-tomorrow-and-tomorrow-a-novel",
@@ -359,7 +485,25 @@
       "totalWords": 64260,
       "totalPages": 65,
       "totalChapters": 13
+    },
+    {
+      "id": "hitchhiker-s-guide-to-the-galaxy-01-the-hitchhiker-s-guide-to-the-galaxy-the-trilogy-of-five",
+      "title": "[Hitchhiker's Guide to the Galaxy 01] • The Hitchhiker's Guide to the Galaxy · The Trilogy of Five",
+      "author": "Adams, Douglas",
+      "description": "On 12 October 1979 the most remarkable book ever to come out of the great publishing corporations of Ursa Minor (and Earth) was made available to humanity. This was of course The Hitchhiker's Guide to the Galaxy series. And this merry spacewagon, featuring a flying sofa, a Paranoid Android, a gift-wrapped fishbowl, bath towels and much else besides, became an instant classic. Now, for the first time, we are publishing all five books in the Hitchhiker's series, as an ebook omnibus.",
+      "totalWords": 272254,
+      "totalPages": 273,
+      "totalChapters": 193
+    },
+    {
+      "id": "high-vaultage",
+      "title": "High Vaultage",
+      "author": "Jen Sugden",
+      "description": "EVEN GREATER LONDON, 1887. An uninterrupted urban plane encompassing the entire lower half of England and, for complex reasons, only the upper third of the Isle of Wight. The immense Tower casts electricity through the sky, powering the mind-boggling mechanisms of the city. The engineer-army of Isambard Kingdom Brunel swarms across the capital, building, demolishing, and rebuilding whatever they see fit. And at the heart of it all sits the country’s first private detective agency. Archibald Flee",
+      "totalWords": 103647,
+      "totalPages": 104,
+      "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-05-04T21:39:08.490Z"
+  "updatedAt": "2026-05-08T10:11:34.596Z"
 }

@@ -1,0 +1,355 @@
+{
+  "id": "rook-rebel",
+  "title": "Rook & Rebel",
+  "author": "Kate Crew",
+  "description": "",
+  "filename": "Rook & Rebel -- Kate Crew -- The Mavericks, 1, 2024 -- isbn13 9798988530053 -- 16958b2b12a4ae6a7ac22fa7e35427ea -- Anna’s Archive.epub",
+  "totalWords": 103644,
+  "totalPages": 104,
+  "totalChapters": 49,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Copyright",
+      "wordCount": 91,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Content Warnings",
+      "wordCount": 37,
+      "pageCount": 1,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "Playlist",
+      "wordCount": 78,
+      "pageCount": 1,
+      "startPage": 3
+    },
+    {
+      "index": 4,
+      "title": "Contents",
+      "wordCount": 94,
+      "pageCount": 1,
+      "startPage": 4
+    },
+    {
+      "index": 5,
+      "title": "Chapter 1",
+      "wordCount": 1443,
+      "pageCount": 2,
+      "startPage": 5
+    },
+    {
+      "index": 6,
+      "title": "Chapter 2",
+      "wordCount": 2146,
+      "pageCount": 3,
+      "startPage": 7
+    },
+    {
+      "index": 7,
+      "title": "Chapter 3",
+      "wordCount": 1969,
+      "pageCount": 2,
+      "startPage": 10
+    },
+    {
+      "index": 8,
+      "title": "Chapter 4",
+      "wordCount": 1838,
+      "pageCount": 2,
+      "startPage": 12
+    },
+    {
+      "index": 9,
+      "title": "Chapter 5",
+      "wordCount": 1173,
+      "pageCount": 2,
+      "startPage": 14
+    },
+    {
+      "index": 10,
+      "title": "Chapter 6",
+      "wordCount": 2204,
+      "pageCount": 3,
+      "startPage": 16
+    },
+    {
+      "index": 11,
+      "title": "Chapter 7",
+      "wordCount": 1146,
+      "pageCount": 2,
+      "startPage": 19
+    },
+    {
+      "index": 12,
+      "title": "Chapter 8",
+      "wordCount": 1495,
+      "pageCount": 2,
+      "startPage": 21
+    },
+    {
+      "index": 13,
+      "title": "Chapter 9",
+      "wordCount": 2534,
+      "pageCount": 3,
+      "startPage": 23
+    },
+    {
+      "index": 14,
+      "title": "Chapter 10",
+      "wordCount": 1986,
+      "pageCount": 2,
+      "startPage": 26
+    },
+    {
+      "index": 15,
+      "title": "Chapter 11",
+      "wordCount": 3407,
+      "pageCount": 4,
+      "startPage": 28
+    },
+    {
+      "index": 16,
+      "title": "Chapter 12",
+      "wordCount": 1640,
+      "pageCount": 2,
+      "startPage": 32
+    },
+    {
+      "index": 17,
+      "title": "Chapter 13",
+      "wordCount": 2358,
+      "pageCount": 3,
+      "startPage": 34
+    },
+    {
+      "index": 18,
+      "title": "Chapter 14",
+      "wordCount": 2199,
+      "pageCount": 3,
+      "startPage": 37
+    },
+    {
+      "index": 19,
+      "title": "Chapter 15",
+      "wordCount": 3203,
+      "pageCount": 4,
+      "startPage": 40
+    },
+    {
+      "index": 20,
+      "title": "Chapter 16",
+      "wordCount": 1228,
+      "pageCount": 2,
+      "startPage": 44
+    },
+    {
+      "index": 21,
+      "title": "Chapter 17",
+      "wordCount": 3977,
+      "pageCount": 4,
+      "startPage": 46
+    },
+    {
+      "index": 22,
+      "title": "Chapter 18",
+      "wordCount": 4125,
+      "pageCount": 5,
+      "startPage": 50
+    },
+    {
+      "index": 23,
+      "title": "Chapter 19",
+      "wordCount": 2381,
+      "pageCount": 3,
+      "startPage": 55
+    },
+    {
+      "index": 24,
+      "title": "Chapter 20",
+      "wordCount": 2236,
+      "pageCount": 3,
+      "startPage": 58
+    },
+    {
+      "index": 25,
+      "title": "Chapter 21",
+      "wordCount": 3026,
+      "pageCount": 4,
+      "startPage": 61
+    },
+    {
+      "index": 26,
+      "title": "Chapter 22",
+      "wordCount": 2230,
+      "pageCount": 3,
+      "startPage": 65
+    },
+    {
+      "index": 27,
+      "title": "Chapter 23",
+      "wordCount": 1871,
+      "pageCount": 2,
+      "startPage": 68
+    },
+    {
+      "index": 28,
+      "title": "Chapter 24",
+      "wordCount": 2392,
+      "pageCount": 3,
+      "startPage": 70
+    },
+    {
+      "index": 29,
+      "title": "Chapter 25",
+      "wordCount": 2500,
+      "pageCount": 3,
+      "startPage": 73
+    },
+    {
+      "index": 30,
+      "title": "Chapter 26",
+      "wordCount": 1916,
+      "pageCount": 2,
+      "startPage": 76
+    },
+    {
+      "index": 31,
+      "title": "Chapter 27",
+      "wordCount": 3544,
+      "pageCount": 4,
+      "startPage": 78
+    },
+    {
+      "index": 32,
+      "title": "Chapter 28",
+      "wordCount": 3227,
+      "pageCount": 4,
+      "startPage": 82
+    },
+    {
+      "index": 33,
+      "title": "Chapter 29",
+      "wordCount": 1152,
+      "pageCount": 2,
+      "startPage": 86
+    },
+    {
+      "index": 34,
+      "title": "Chapter 30",
+      "wordCount": 1230,
+      "pageCount": 2,
+      "startPage": 88
+    },
+    {
+      "index": 35,
+      "title": "Chapter 31",
+      "wordCount": 2025,
+      "pageCount": 3,
+      "startPage": 90
+    },
+    {
+      "index": 36,
+      "title": "Chapter 32",
+      "wordCount": 3528,
+      "pageCount": 4,
+      "startPage": 93
+    },
+    {
+      "index": 37,
+      "title": "Chapter 33",
+      "wordCount": 3218,
+      "pageCount": 4,
+      "startPage": 97
+    },
+    {
+      "index": 38,
+      "title": "Chapter 34",
+      "wordCount": 3253,
+      "pageCount": 4,
+      "startPage": 101
+    },
+    {
+      "index": 39,
+      "title": "Chapter 35",
+      "wordCount": 2536,
+      "pageCount": 3,
+      "startPage": 105
+    },
+    {
+      "index": 40,
+      "title": "Chapter 36",
+      "wordCount": 3164,
+      "pageCount": 4,
+      "startPage": 108
+    },
+    {
+      "index": 41,
+      "title": "Chapter 37",
+      "wordCount": 2458,
+      "pageCount": 3,
+      "startPage": 112
+    },
+    {
+      "index": 42,
+      "title": "Chapter 38",
+      "wordCount": 3224,
+      "pageCount": 4,
+      "startPage": 115
+    },
+    {
+      "index": 43,
+      "title": "Chapter 39",
+      "wordCount": 2047,
+      "pageCount": 3,
+      "startPage": 119
+    },
+    {
+      "index": 44,
+      "title": "Chapter 40",
+      "wordCount": 2397,
+      "pageCount": 3,
+      "startPage": 122
+    },
+    {
+      "index": 45,
+      "title": "Chapter 41",
+      "wordCount": 2523,
+      "pageCount": 3,
+      "startPage": 125
+    },
+    {
+      "index": 46,
+      "title": "Chapter 42",
+      "wordCount": 2513,
+      "pageCount": 3,
+      "startPage": 128
+    },
+    {
+      "index": 47,
+      "title": "Chapter 43",
+      "wordCount": 1339,
+      "pageCount": 2,
+      "startPage": 131
+    },
+    {
+      "index": 48,
+      "title": "Chapter 44",
+      "wordCount": 902,
+      "pageCount": 1,
+      "startPage": 133
+    },
+    {
+      "index": 49,
+      "title": "Acknowledgments",
+      "wordCount": 441,
+      "pageCount": 1,
+      "startPage": 134
+    }
+  ]
+}
