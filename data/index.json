@@ -64,13 +64,13 @@
       "totalChapters": 58
     },
     {
-      "id": "dune",
-      "title": "Dune",
+      "id": "dune-messiah",
+      "title": "Dune Messiah",
       "author": "Frank Herbert",
-      "description": "SUMMARY: The Bene Gesserit's situation is far worse than what they had suffered under the Tyrant Leto II. The Honored Matres -a violent offshoot of the Bene Gesserit Sisterhood-have destroyed Arrakis, of Dune, searing all life from the desert planet. Sweeping across the galaxy, they relentlessly hunt down and destroy every Bene Gesserit stronghold they can find, always searching for Chapterhoursem the most powerful of all Bene Gesserit worlds. Meanwhile, the Sisterhood, led by Mother Superior Od",
-      "totalWords": 203545,
-      "totalPages": 204,
-      "totalChapters": 48
+      "description": "Dune Messiah continues the story of Paul Atreides, better known - and feared - as the man christened Muad’Dib. As Emperor of the Known Universe, he possesses more power than a single man was ever meant to wield. Worshipped as a religious icon by the fanatical Fremen, Paul faces the enmity of the political houses he displaced when he assumed the throne - and a conspiracy conducted within his own sphere of influence. And even as House Atreides begins to crumble around him from the machinations of ",
+      "totalWords": 75425,
+      "totalPages": 76,
+      "totalChapters": 30
     },
     {
       "id": "forbidden-lyrics-wrecked-roommates",
@@ -541,5 +541,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-05-16T17:23:26.988Z"
+  "updatedAt": "2026-05-16T17:27:36.832Z"
 }
