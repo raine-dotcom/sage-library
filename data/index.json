@@ -19,6 +19,15 @@
       "totalChapters": 31
     },
     {
+      "id": "annihilation",
+      "title": "Annihilation",
+      "author": "Jeff VanderMeer",
+      "description": "Area X has been cut off from the rest of the continent for decades. Nature has reclaimed the last vestiges of human civilization. The first expedition returned with reports of a pristine, Edenic landscape; all the members of the second expedition committed suicide; the third expedition died in a hail of gunfire as its members turned on one another; the members of the eleventh expedition returned as shadows of their former selves, and within months of their return, all had died of aggressive canc",
+      "totalWords": 55779,
+      "totalPages": 56,
+      "totalChapters": 11
+    },
+    {
       "id": "attached-are-you-anxious-avoidant-or-secure-how-the-science-of-adult-attachment-can-help-you-find-and-keep-love",
       "title": "Attached: Are you Anxious, Avoidant or Secure? How the science of adult attachment can help you find – and keep – love",
       "author": "Levine, Amir",
@@ -26,6 +35,15 @@
       "totalWords": 67370,
       "totalPages": 68,
       "totalChapters": 24
+    },
+    {
+      "id": "beyond-the-aquila-rift",
+      "title": "Beyond the Aquila Rift",
+      "author": "Alastair Reynolds",
+      "description": "This is an amazing collection of some of the best short fiction ever written in the SF genre, by an author acclaimed as “the mastersinger of space opera”. Alastair Reynolds has won the Sidewise Award and been nominated for The Hugo Awards for his short fiction. One of the most thought-provoking and accomplished short-fiction writers of our time, this collection is a delight for all SF readers.",
+      "totalWords": 272905,
+      "totalPages": 273,
+      "totalChapters": 21
     },
     {
       "id": "does-god-play-dice-the-new-mathematics-of-chaos",
@@ -44,6 +62,15 @@
       "totalWords": 207126,
       "totalPages": 208,
       "totalChapters": 58
+    },
+    {
+      "id": "dune",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "description": "SUMMARY: The Bene Gesserit's situation is far worse than what they had suffered under the Tyrant Leto II. The Honored Matres -a violent offshoot of the Bene Gesserit Sisterhood-have destroyed Arrakis, of Dune, searing all life from the desert planet. Sweeping across the galaxy, they relentlessly hunt down and destroy every Bene Gesserit stronghold they can find, always searching for Chapterhoursem the most powerful of all Bene Gesserit worlds. Meanwhile, the Sisterhood, led by Mother Superior Od",
+      "totalWords": 203545,
+      "totalPages": 204,
+      "totalChapters": 48
     },
     {
       "id": "forbidden-lyrics-wrecked-roommates",
@@ -197,6 +224,15 @@
       "totalWords": 103149,
       "totalPages": 104,
       "totalChapters": 39
+    },
+    {
+      "id": "phantasma-a-dark-fantasy-romance-wicked-games",
+      "title": "Phantasma: A dark fantasy romance (Wicked Games)",
+      "author": "Kaylie Smith",
+      "description": "",
+      "totalWords": 121906,
+      "totalPages": 122,
+      "totalChapters": 61
     },
     {
       "id": "pratchett-terry-discworld-16-soul-music",
@@ -505,5 +541,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-05-08T10:11:34.596Z"
+  "updatedAt": "2026-05-16T17:23:26.988Z"
 }
