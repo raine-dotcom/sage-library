@@ -226,15 +226,6 @@
       "totalChapters": 39
     },
     {
-      "id": "phantasma-a-dark-fantasy-romance-wicked-games",
-      "title": "Phantasma: A dark fantasy romance (Wicked Games)",
-      "author": "Kaylie Smith",
-      "description": "",
-      "totalWords": 121906,
-      "totalPages": 122,
-      "totalChapters": 61
-    },
-    {
       "id": "pratchett-terry-discworld-16-soul-music",
       "title": "Pratchett, Terry - Discworld 16 - Soul Music",
       "author": "Pratchett, Terry",
@@ -541,5 +532,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-05-16T17:27:36.832Z"
+  "updatedAt": "2026-05-16T17:31:06.571Z"
 }
