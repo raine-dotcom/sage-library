@@ -82,15 +82,6 @@
       "totalChapters": 46
     },
     {
-      "id": "forbidden-lyrics-wrecked-roommates",
-      "title": "Forbidden Lyrics (Wrecked Roommates)",
-      "author": "Kelsie Rae",
-      "description": "",
-      "totalWords": 99119,
-      "totalPages": 100,
-      "totalChapters": 46
-    },
-    {
       "id": "fourth-wing",
       "title": "Fourth Wing",
       "author": "Rebecca Yarros",
@@ -532,5 +523,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-05-16T17:39:21.953Z"
+  "updatedAt": "2026-05-21T23:42:44.125Z"
 }
