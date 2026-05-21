@@ -1,0 +1,82 @@
+{
+  "id": "blindsight",
+  "title": "Blindsight",
+  "author": "Peter Watts",
+  "description": "Two months since sixty-five thousand alien objects clenched around the Earth like a luminous fist, screaming to the heavens as the atmosphere burned them to ash. Two months since that moment of brief, bright surveillance by agents unknown. Two months of silence, while a world holds its breath. Now some half-derelict space probe, sparking fitfully past Neptune's orbit, hears a whisper from the edge of the solar system: a faint signal sweeping the cosmos like a lighthouse beam. Whatever's out ther",
+  "filename": "BLINDSIGHT (Firefall, 1) -- Watts, Peter -- 1st trade pbk_ ed, New York, 2008 -- Tor Books [Imprint];Tom Doherty Associates, LLC;Macmillan -- isbn13 9780765312181 -- 61a6d4594dd27bdd11cdc6985c6b5e88 -- Anna’s Archive.epub",
+  "totalWords": 98512,
+  "totalPages": 99,
+  "totalChapters": 10,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Chapter 1",
+      "wordCount": 225,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Acknowledgements",
+      "wordCount": 605,
+      "pageCount": 1,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "Creative Commons License",
+      "wordCount": 136,
+      "pageCount": 1,
+      "startPage": 3
+    },
+    {
+      "index": 4,
+      "title": "Chapter 4",
+      "wordCount": 32,
+      "pageCount": 1,
+      "startPage": 4
+    },
+    {
+      "index": 5,
+      "title": "Prologue",
+      "wordCount": 1622,
+      "pageCount": 2,
+      "startPage": 5
+    },
+    {
+      "index": 6,
+      "title": "Chapter 6",
+      "wordCount": 32674,
+      "pageCount": 33,
+      "startPage": 7
+    },
+    {
+      "index": 7,
+      "title": "Chapter 7",
+      "wordCount": 30585,
+      "pageCount": 31,
+      "startPage": 40
+    },
+    {
+      "index": 8,
+      "title": "Chapter 8",
+      "wordCount": 29376,
+      "pageCount": 30,
+      "startPage": 71
+    },
+    {
+      "index": 9,
+      "title": "Chapter 9",
+      "wordCount": 1874,
+      "pageCount": 2,
+      "startPage": 101
+    },
+    {
+      "index": 10,
+      "title": "Chapter 10",
+      "wordCount": 1383,
+      "pageCount": 2,
+      "startPage": 103
+    }
+  ]
+}
