@@ -37,6 +37,15 @@
       "totalChapters": 24
     },
     {
+      "id": "being-you-a-new-science-of-consciousness-9780571337736",
+      "title": "Being You : A New Science of Consciousness (9780571337736)",
+      "author": "Seth, Anil",
+      "description": "",
+      "totalWords": 105685,
+      "totalPages": 106,
+      "totalChapters": 22
+    },
+    {
       "id": "beyond-the-aquila-rift",
       "title": "Beyond the Aquila Rift",
       "author": "Alastair Reynolds",
@@ -71,6 +80,15 @@
       "totalWords": 75425,
       "totalPages": 76,
       "totalChapters": 30
+    },
+    {
+      "id": "echopraxia",
+      "title": "Echopraxia",
+      "author": "Peter Watts",
+      "description": "Prepare for a different kind of singularity in Peter Watts' Echopraxia, the follow-up to the Hugo-nominated novel Blindsight It's the eve of the twenty-second century: a world where the dearly departed send postcards back from Heaven and evangelicals make scientific breakthroughs by speaking in tongues; where genetically engineered vampires solve problems intractable to baseline humans and soldiers come with zombie switches that shut off self-awareness during combat. And it’s all under surveilla",
+      "totalWords": 111285,
+      "totalPages": 112,
+      "totalChapters": 17
     },
     {
       "id": "forbidden-lyrics-wrecked-roommates",
@@ -190,6 +208,15 @@
       "totalChapters": 3
     },
     {
+      "id": "lovecraft-country",
+      "title": "Lovecraft Country",
+      "author": "Matt Ruff",
+      "description": "The critically acclaimed cult novelist makes visceral the terrors of life in Jim Crow America and its lingering effects in this brilliant and wondrous work of the imagination that melds historical fiction, pulp noir, and Lovecraftian horror and fantasy Chicago, 1954. When his father Montrose goes missing, twenty-two year old Army veteran Atticus Turner embarks on a road trip to New England to find him, accompanied by his Uncle George—publisher of The Safe Negro Travel Guide—and his childhood fri",
+      "totalWords": 124354,
+      "totalPages": 125,
+      "totalChapters": 19
+    },
+    {
       "id": "discworld-04-mort",
       "title": "Discworld 04 - Mort",
       "author": "Pratchett, Terry",
@@ -235,6 +262,15 @@
       "totalChapters": 30
     },
     {
+      "id": "into-the-drowning-deep",
+      "title": "Into the Drowning Deep",
+      "author": "Mira Grant",
+      "description": "New York Times bestselling author Mira Grant takes us on a journey into the unknown where human frailty meets the awesome power of nature and myths come to life.",
+      "totalWords": 161770,
+      "totalPages": 162,
+      "totalChapters": 70
+    },
+    {
       "id": "rook-rebel",
       "title": "Rook & Rebel",
       "author": "Kate Crew",
@@ -242,6 +278,15 @@
       "totalWords": 103644,
       "totalPages": 104,
       "totalChapters": 49
+    },
+    {
+      "id": "shadows-of-carcosa",
+      "title": "Shadows of Carcosa",
+      "author": "H. P. Lovecraft",
+      "description": "\"The true weird tale has something more than a secret murder, bloody bones, or a sheeted form clanking chains. An atmosphere of breathless and unexplainable dread of outer, unknown forces must be present; a hint of that most terrible conception of the human brain--a malign and particular suspension or defeat of those fixed laws of Nature which are our only safeguard against the assaults of chaos and the daemons of unplumbed space.\" --H. P. Lovecraft This new collection features some of the great",
+      "totalWords": 120815,
+      "totalPages": 121,
+      "totalChapters": 16
     },
     {
       "id": "slaughterhouse-five-publisher-dell",
@@ -280,6 +325,15 @@
       "totalChapters": 37
     },
     {
+      "id": "the-call-of-cthulhu-and-other-weird-stories",
+      "title": "The Call of Cthulhu and Other Weird Stories",
+      "author": "H. P. Lovecraft",
+      "description": "A collection of stories from H.P. Lovecraft, the unrivaled master of early-twentieth-century horrorFrequently imitated and widely influential, H. P. Lovecraft reinvented the horror genre for the twentieth century. Discarding witches and ghosts, he envisaged mankind as an outpost of dwindling sanity in a chaotic and malevolent universe. S. T. Joshi makes his selection from the early tales of nightmares and madness to the overpowering cosmic terror of 'The Call of Cthulhu'. This is the first paper",
+      "totalWords": 175132,
+      "totalPages": 176,
+      "totalChapters": 26
+    },
+    {
       "id": "the-code-of-the-woosters",
       "title": "The Code of the Woosters",
       "author": "P.G. Wodehouse",
@@ -307,6 +361,24 @@
       "totalChapters": 14
     },
     {
+      "id": "the-fisherman",
+      "title": "The Fisherman",
+      "author": "John Langan",
+      "description": "In upstate New York, in the woods around Woodstock, Dutchman’s Creek flows out of the Ashokan Reservoir. Steep-banked, fast-moving, it offers the promise of fine fishing, and of something more, a possibility too fantastic to be true. When Abe and Dan, two widowers who have found solace in each other’s company and a shared passion for fishing, hear rumors of the Creek, and what might be found there, the remedy to both their losses, they dismiss it as just another fish story. Soon, though, the men",
+      "totalWords": 104944,
+      "totalPages": 105,
+      "totalChapters": 46
+    },
+    {
+      "id": "the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate",
+      "title": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+      "author": "Gary Chapman",
+      "description": "Marriage should be based on love, right? But does it seem as though you and your spouse are speaking two different languages? #1 New York Times bestselling author Dr. Gary Chapman guides couples in identifying, understanding, and speaking their spouse's primary love language-quality time, words of affirmation, gifts, acts of service, or physical touch. By learning the five love languages, you and your spouse will discover your unique love languages and learn practical steps in truly loving each ",
+      "totalWords": 50841,
+      "totalPages": 51,
+      "totalChapters": 17
+    },
+    {
       "id": "the-hidden-life-of-trees",
       "title": "The Hidden Life of Trees",
       "author": "Peter Wohlleben",
@@ -323,6 +395,15 @@
       "totalWords": 72116,
       "totalPages": 73,
       "totalChapters": 15
+    },
+    {
+      "id": "the-hollow-places",
+      "title": "The Hollow Places",
+      "author": "Kingfisher, T.",
+      "description": "A young woman discovers a strange portal in her uncle’s house, leading to madness and terror in this gripping new novel from the author of the “innovative, unexpected, and absolutely chilling” (Mira Grant, Nebula Award–winning author) The Twisted Ones. Pray they are hungry. Kara finds the words in the mysterious bunker that she’s discovered behind a hole in the wall of her uncle’s house. Freshly divorced and living back at home, Kara now becomes obsessed with these cryptic words and starts explo",
+      "totalWords": 84836,
+      "totalPages": 85,
+      "totalChapters": 29
     },
     {
       "id": "the-hour-of-the-star",
@@ -379,6 +460,15 @@
       "totalChapters": 12
     },
     {
+      "id": "the-stand-original-edition",
+      "title": "The Stand (Original Edition)",
+      "author": "Stephen King",
+      "description": "",
+      "totalWords": 327618,
+      "totalPages": 328,
+      "totalChapters": 69
+    },
+    {
       "id": "the-summer-queen",
       "title": "The Summer Queen",
       "author": "Joan D. Vinge",
@@ -422,6 +512,15 @@
       "totalWords": 89366,
       "totalPages": 90,
       "totalChapters": 18
+    },
+    {
+      "id": "the-haunting-of-hill-house",
+      "title": "The Haunting of Hill House",
+      "author": "Shirley Jackson",
+      "description": "The greatest haunted house story ever written, the inspiration for a 10-part Netflix series directed by Mike Flanagan and starring Michiel Huisman, Carla Gugino, and Timothy Hutton First published in 1959, Shirley Jackson's The Haunting of Hill House has been hailed as a perfect work of unnerving terror. It is the story of four seekers who arrive at a notoriously unfriendly pile called Hill House: Dr. Montague, an occult scholar looking for solid evidence of a \"haunting\"; Theodora, his lighthear",
+      "totalWords": 70290,
+      "totalPages": 71,
+      "totalChapters": 14
     },
     {
       "id": "three-men-in-a-boat-amazonclassics-edition",
@@ -523,5 +622,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-05-21T23:42:44.125Z"
+  "updatedAt": "2026-05-21T23:50:21.068Z"
 }
