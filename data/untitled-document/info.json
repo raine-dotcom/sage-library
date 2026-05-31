@@ -1,0 +1,61 @@
+{
+  "id": "untitled-document",
+  "title": "Untitled Document",
+  "author": "Unknown",
+  "description": "",
+  "filename": "The Unbearable Lightness of Being -- MILAN KUNDERA -- c77b7a15eeb5ebfd5190bf1b9463f8d6 -- Anna’s Archive.epub",
+  "totalWords": 85257,
+  "totalPages": 86,
+  "totalChapters": 7,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Chapter 1",
+      "wordCount": 48,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "PART ONE",
+      "wordCount": 19505,
+      "pageCount": 20,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "PART THREE",
+      "wordCount": 14369,
+      "pageCount": 15,
+      "startPage": 22
+    },
+    {
+      "index": 4,
+      "title": "PART FOUR",
+      "wordCount": 11330,
+      "pageCount": 12,
+      "startPage": 37
+    },
+    {
+      "index": 5,
+      "title": "PART FIVE",
+      "wordCount": 19993,
+      "pageCount": 20,
+      "startPage": 49
+    },
+    {
+      "index": 6,
+      "title": "PART SIX",
+      "wordCount": 9300,
+      "pageCount": 10,
+      "startPage": 69
+    },
+    {
+      "index": 7,
+      "title": "PART SEVEN",
+      "wordCount": 10712,
+      "pageCount": 11,
+      "startPage": 79
+    }
+  ]
+}
