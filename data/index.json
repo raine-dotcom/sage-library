@@ -280,6 +280,15 @@
       "totalChapters": 30
     },
     {
+      "id": "into-the-drowning-deep",
+      "title": "Into the Drowning Deep",
+      "author": "Mira Grant",
+      "description": "New York Times bestselling author Mira Grant takes us on a journey into the unknown where human frailty meets the awesome power of nature and myths come to life.",
+      "totalWords": 161770,
+      "totalPages": 162,
+      "totalChapters": 70
+    },
+    {
       "id": "rook-rebel",
       "title": "Rook & Rebel",
       "author": "Kate Crew",
@@ -568,5 +577,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-06-03T00:44:37.801Z"
+  "updatedAt": "2026-06-03T00:56:28.934Z"
 }
