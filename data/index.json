@@ -406,6 +406,15 @@
       "totalChapters": 24
     },
     {
+      "id": "the-name-of-the-rose",
+      "title": "The Name of the Rose",
+      "author": "Umberto Eco",
+      "description": "SUMMARY: The year is 1327. Franciscans in a wealthy Italian abbey are suspected of heresy, and Brother William of Baskerville arrives to investigate. When his delicate mission is suddenly overshadowed by seven bizarre deaths, Brother William turns detective. His tools are the logic of Aristotle, the theology of Aquinas, the empirical insights of Roger Bacon - all sharpened to a glistening edge by wry humor and a ferocious curiosity. He collects evidence, deciphers secret symbols and coded manusc",
+      "totalWords": 374123,
+      "totalPages": 375,
+      "totalChapters": 108
+    },
+    {
       "id": "the-ritual-a-dark-college-romance",
       "title": "The Ritual: A Dark College Romance",
       "author": "Tessier, Shantel",
@@ -577,5 +586,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-06-03T00:56:28.934Z"
+  "updatedAt": "2026-06-03T01:05:18.074Z"
 }
