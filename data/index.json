@@ -424,6 +424,15 @@
       "totalChapters": 71
     },
     {
+      "id": "the-shadow-of-the-wind",
+      "title": "The Shadow of the Wind",
+      "author": "Carlos Ruiz Zafon",
+      "description": "\"Gabriel Garc&iacute;a M&aacute;rquez meets Umberto Eco meets Jorge Luis Borges for a sprawling magic show.\" &#8212; The New York Times Book Review A New York Times Bestseller Barcelona, 1945: A city slowly heals in the aftermath of the Spanish Civil War, and Daniel, an antiquarian book dealer's son who mourns the loss of his mother, finds solace in a mysterious book entitled The Shadow of the Wind, by one Juli&aacute;n Carax. But when he sets out to find the author's other works, he makes a sho",
+      "totalWords": 164775,
+      "totalPages": 165,
+      "totalChapters": 71
+    },
+    {
       "id": "the-snow-queen",
       "title": "The Snow Queen",
       "author": "Joan D. Vinge",
@@ -586,5 +595,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-06-03T01:05:18.074Z"
+  "updatedAt": "2026-06-03T01:12:33.188Z"
 }
