@@ -505,6 +505,15 @@
       "totalChapters": 18
     },
     {
+      "id": "untitled-document",
+      "title": "Untitled Document",
+      "author": "Unknown",
+      "description": "",
+      "totalWords": 85257,
+      "totalPages": 86,
+      "totalChapters": 7
+    },
+    {
       "id": "the-art-of-gathering-how-we-meet-and-why-it-matters",
       "title": "The Art of Gathering: How We Meet and Why It Matters",
       "author": "Priya Parker",
@@ -613,5 +622,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-06-03T01:26:35.131Z"
+  "updatedAt": "2026-06-03T01:32:35.567Z"
 }
