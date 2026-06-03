@@ -1,0 +1,187 @@
+{
+  "id": "the-ocean-at-the-end-of-the-lane",
+  "title": "The Ocean at the End of the Lane",
+  "author": "Neil Gaiman",
+  "description": "",
+  "filename": "The Ocean at the End of the Lane -- Gaiman, Neil -- London, 2013 -- Headline Feature -- isbn13 9781472200334 -- 37c5bef2ab82c34104a2384617d7568f -- Anna’s Archive.epub",
+  "totalWords": 55009,
+  "totalPages": 56,
+  "totalChapters": 25,
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Copyright Page",
+      "wordCount": 148,
+      "pageCount": 1,
+      "startPage": 1
+    },
+    {
+      "index": 2,
+      "title": "Table of Contents",
+      "wordCount": 56,
+      "pageCount": 1,
+      "startPage": 2
+    },
+    {
+      "index": 3,
+      "title": "About the Author",
+      "wordCount": 38,
+      "pageCount": 1,
+      "startPage": 3
+    },
+    {
+      "index": 4,
+      "title": "Praise for Neil Gaiman",
+      "wordCount": 250,
+      "pageCount": 1,
+      "startPage": 4
+    },
+    {
+      "index": 5,
+      "title": "About the Book",
+      "wordCount": 152,
+      "pageCount": 1,
+      "startPage": 5
+    },
+    {
+      "index": 6,
+      "title": "Epigraph",
+      "wordCount": 38,
+      "pageCount": 1,
+      "startPage": 6
+    },
+    {
+      "index": 7,
+      "title": "Chapter 7",
+      "wordCount": 104,
+      "pageCount": 1,
+      "startPage": 7
+    },
+    {
+      "index": 8,
+      "title": "Prologue",
+      "wordCount": 1787,
+      "pageCount": 2,
+      "startPage": 8
+    },
+    {
+      "index": 9,
+      "title": "Chapter I",
+      "wordCount": 1273,
+      "pageCount": 2,
+      "startPage": 10
+    },
+    {
+      "index": 10,
+      "title": "Chapter II",
+      "wordCount": 3807,
+      "pageCount": 4,
+      "startPage": 12
+    },
+    {
+      "index": 11,
+      "title": "Chapter III",
+      "wordCount": 3114,
+      "pageCount": 4,
+      "startPage": 16
+    },
+    {
+      "index": 12,
+      "title": "Chapter IV",
+      "wordCount": 3224,
+      "pageCount": 4,
+      "startPage": 20
+    },
+    {
+      "index": 13,
+      "title": "Chapter V",
+      "wordCount": 1206,
+      "pageCount": 2,
+      "startPage": 24
+    },
+    {
+      "index": 14,
+      "title": "Chapter VI",
+      "wordCount": 4284,
+      "pageCount": 5,
+      "startPage": 26
+    },
+    {
+      "index": 15,
+      "title": "Chapter VII",
+      "wordCount": 2891,
+      "pageCount": 3,
+      "startPage": 31
+    },
+    {
+      "index": 16,
+      "title": "Chapter VIII",
+      "wordCount": 5640,
+      "pageCount": 6,
+      "startPage": 34
+    },
+    {
+      "index": 17,
+      "title": "Chapter IX",
+      "wordCount": 4922,
+      "pageCount": 5,
+      "startPage": 40
+    },
+    {
+      "index": 18,
+      "title": "Chapter X",
+      "wordCount": 4891,
+      "pageCount": 5,
+      "startPage": 45
+    },
+    {
+      "index": 19,
+      "title": "Chapter XI",
+      "wordCount": 2374,
+      "pageCount": 3,
+      "startPage": 50
+    },
+    {
+      "index": 20,
+      "title": "Chapter XII",
+      "wordCount": 3060,
+      "pageCount": 4,
+      "startPage": 53
+    },
+    {
+      "index": 21,
+      "title": "Chapter XIII",
+      "wordCount": 2952,
+      "pageCount": 3,
+      "startPage": 57
+    },
+    {
+      "index": 22,
+      "title": "Chapter XIV",
+      "wordCount": 4270,
+      "pageCount": 5,
+      "startPage": 60
+    },
+    {
+      "index": 23,
+      "title": "Chapter XV",
+      "wordCount": 1786,
+      "pageCount": 2,
+      "startPage": 65
+    },
+    {
+      "index": 24,
+      "title": "Epilogue",
+      "wordCount": 1991,
+      "pageCount": 2,
+      "startPage": 67
+    },
+    {
+      "index": 25,
+      "title": "Acknowledgements",
+      "wordCount": 751,
+      "pageCount": 1,
+      "startPage": 69
+    }
+  ]
+}
