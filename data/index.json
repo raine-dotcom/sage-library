@@ -1,6 +1,15 @@
 {
   "books": [
     {
+      "id": "1961-a-canticle-for-leibowitz",
+      "title": "1961-A Canticle For Leibowitz",
+      "author": "Walter M. Miller",
+      "description": "EDITORIAL REVIEW: In celebration of the publication of the sequel *Saint Leibowitz and the Wild Horse Woman* comes this special edition of the classic *A Canticle for Leibowitz,* a novel that transcends genre to stand as one of the most significant literary works of our time. In the Utah desert, Brother Francis of the Albertian Order of Leibowitz has made a miraculous discovery: the relics of the martyr Isaac Leibowitz himself, including the blessed blueprint and the sacred shopping list. They m",
+      "totalWords": 93209,
+      "totalPages": 94,
+      "totalChapters": 6
+    },
+    {
       "id": "a-man-called-ove",
       "title": "A Man Called Ove",
       "author": "Daily Books",
@@ -559,5 +568,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-05-31T03:51:09.847Z"
+  "updatedAt": "2026-06-03T00:44:37.801Z"
 }
