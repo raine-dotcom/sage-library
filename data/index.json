@@ -460,6 +460,15 @@
       "totalChapters": 12
     },
     {
+      "id": "the-starless-sea",
+      "title": "The Starless Sea",
+      "author": "Erin Morgenstern",
+      "description": "",
+      "totalWords": 152965,
+      "totalPages": 153,
+      "totalChapters": 97
+    },
+    {
       "id": "the-summer-queen",
       "title": "The Summer Queen",
       "author": "Joan D. Vinge",
@@ -604,5 +613,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-06-03T01:20:21.646Z"
+  "updatedAt": "2026-06-03T01:26:35.131Z"
 }
