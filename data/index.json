@@ -280,6 +280,15 @@
       "totalChapters": 30
     },
     {
+      "id": "project-hail-mary-a-novel",
+      "title": "Project Hail Mary: A Novel",
+      "author": "Andy Weir",
+      "description": "#1 NEW YORK TIMES BESTSELLER • From the author of The Martian, a lone astronaut must save the earth from disaster in this “propulsive” (Entertainment Weekly), cinematic thriller full of suspense, humor, and fascinating science—in development as a major motion picture starring Ryan Gosling. HUGO AWARD FINALIST • ONE OF THE YEAR’S BEST BOOKS: Bill Gates, GatesNotes, New York Public Library, Parade, Newsweek, Polygon, Shelf Awareness, She Reads, Kirkus Reviews, Library Journal • “An epic story of r",
+      "totalWords": 149643,
+      "totalPages": 150,
+      "totalChapters": 34
+    },
+    {
       "id": "into-the-drowning-deep",
       "title": "Into the Drowning Deep",
       "author": "Mira Grant",
@@ -622,5 +631,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-06-03T01:32:35.567Z"
+  "updatedAt": "2026-06-13T16:19:39.054Z"
 }
