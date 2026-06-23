@@ -280,6 +280,15 @@
       "totalChapters": 39
     },
     {
+      "id": "night-magic",
+      "title": "Night Magic",
+      "author": "Leigh Ann Henion",
+      "description": "From a New York Times bestselling nature writer comes a celebration of what goes on outside in the dark, from blooming moon gardens to nocturnal salamanders, from glowing foxfire and synchronous fireflies that blink in unison like an orchestra of light.&#160; In this glorious celebration of the night, New York Times bestselling nature writer Leigh Ann Henion invites us to leave our well-lit homes, step outside, and embrace the dark as a profoundly beautiful part of the world we inhabit. Because ",
+      "totalWords": 87393,
+      "totalPages": 88,
+      "totalChapters": 16
+    },
+    {
       "id": "pratchett-terry-discworld-16-soul-music",
       "title": "Pratchett, Terry - Discworld 16 - Soul Music",
       "author": "Pratchett, Terry",
@@ -649,5 +658,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-06-23T14:34:05.037Z"
+  "updatedAt": "2026-06-23T14:37:36.505Z"
 }
