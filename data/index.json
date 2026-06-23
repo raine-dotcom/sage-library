@@ -82,6 +82,15 @@
       "totalChapters": 21
     },
     {
+      "id": "braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants-epub",
+      "title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants.epub",
+      "author": "Robin Kimmerer",
+      "description": "",
+      "totalWords": 138957,
+      "totalPages": 139,
+      "totalChapters": 18
+    },
+    {
       "id": "does-god-play-dice-the-new-mathematics-of-chaos",
       "title": "Does God Play Dice?: The New Mathematics of Chaos",
       "author": "Ian Stewart",
@@ -640,5 +649,5 @@
       "totalChapters": 26
     }
   ],
-  "updatedAt": "2026-06-17T13:56:59.263Z"
+  "updatedAt": "2026-06-23T14:34:05.037Z"
 }
