@@ -1,0 +1,30 @@
+name: Spaces Library Import Checks
+
+on:
+  pull_request:
+    paths:
+      - "scripts/import-spaces.mjs"
+      - "scripts/spaces-genres.mjs"
+      - "tests/spaces-import.test.mjs"
+      - ".github/workflows/process-books.yml"
+      - ".github/workflows/spaces-import-checks.yml"
+  push:
+    branches:
+      - "feat/spaces-automatic-import"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Unit and integrity contract tests
+        run: node --test tests/spaces-import.test.mjs
+      - name: Dry-run existing catalog (never sends book content)
+        run: node scripts/import-spaces.mjs --dry-run
