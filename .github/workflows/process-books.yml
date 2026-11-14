@@ -51,3 +51,14 @@ jobs:
 
       - name: Purge jsDelivr cache
         run: curl -sf "https://purge.jsdelivr.net/gh/sinxisterrr/Sage-Library@main/data/index.json" || true
+
+      # Activated only after Spaces deployment, origin isolation and a verified
+      # trial import. A missing repository variable keeps the current reader.
+      - name: Import processed catalog into Spaces (opt-in)
+        if: ${{ vars.SPACES_IMPORT_ENABLED == 'true' }}
+        env:
+          SPACES_IMPORT_URL: https://spaces.artificiallyferal.com/
+          SPACES_IMPORT_TOKEN: ${{ secrets.SPACES_IMPORT_TOKEN }}
+          SPACES_CF_ACCESS_CLIENT_ID: ${{ secrets.SPACES_CF_ACCESS_CLIENT_ID }}
+          SPACES_CF_ACCESS_CLIENT_SECRET: ${{ secrets.SPACES_CF_ACCESS_CLIENT_SECRET }}
+        run: node scripts/import-spaces.mjs
