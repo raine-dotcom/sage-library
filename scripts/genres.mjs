@@ -59,6 +59,35 @@ const known=new Map(Object.entries({
   "the hidden life of trees":"Nature & Environment",
   "night magic adventures among glowworms moon gardens and":"Nature & Environment"
 }));
+// Stable source-ID corrections for older generated catalog records whose
+// titles carry extra subtitles/formatting. Unrecognized books stay Unclassified.
+const knownById=new Map(Object.entries({
+  "attached-are-you-anxious-avoidant-or-secure-how-the-science-of-adult-attachment-can-help-you-find-and-keep-love": "Psychology",
+  "being-you-a-new-science-of-consciousness-9780571337736": "Science & Mathematics",
+  "braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants-epub": "Nature & Environment",
+  "forbidden-lyrics-wrecked-roommates": "Romance",
+  "hunting-adeline-cat-and-mouse-duet-book-2": "Romance",
+  "learning-to-love-the-spaces-in-between": "Personal Growth",
+  "liminality-and-the-modern": "History & Society",
+  "love-poems-new-directions-paperbook": "Poetry",
+  "discworld-04-mort": "Fantasy",
+  "night-magic": "Nature & Environment",
+  "pratchett-terry-discworld-16-soul-music": "Fantasy",
+  "project-hail-mary-a-novel": "Science Fiction",
+  "into-the-drowning-deep": "Horror",
+  "rook-rebel": "Romance",
+  "slaughterhouse-five-publisher-dell": "Literary Fiction",
+  "the-book-of-disquiet-penguin-classics": "Philosophy",
+  "the-essence-of-chaos-the-jessie-and-john-danz-lecture": "Science & Mathematics",
+  "the-hidden-life-of-trees-1-mysteries-of-nature": "Nature & Environment",
+  "the-liminal-odyssey-the-alchemical-power-of-the-spaces-in-between": "Personal Growth",
+  "three-men-in-a-boat-amazonclassics-edition": "Classics",
+  "zodiac-academy-3-the-reckoning-an-academy-bully-romance-supernatural-bullies-and-beasts": "Fantasy",
+  "zodiac-academy-ruthless-fae-an-academy-bully-romance": "Fantasy",
+  "zodiac-academy-the-awakening-supernatural-bullies-and": "Fantasy",
+  "a-court-of-frost-and-starlight-a-court-of-thorns-and-roses": "Fantasy",
+  "hitchhiker-s-guide-to-the-galaxy-01-the-hitchhiker-s-guide-to-the-galaxy-the-trilogy-of-five": "Science Fiction"
+}));
 const rules=[
   ["Technology & AI",/\b(artificial intelligence|machine learning|computer science|ai ethics|neural networks)\b/i],
   ["Science & Mathematics",/\b(mathematics|nonlinear dynamics|chaos theory|physics|neuroscience|natural science)\b/i],
@@ -80,7 +109,7 @@ export function titleKey(raw=""){
   return String(raw).normalize("NFKD").toLowerCase()
     .replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
 }
-export function classifyGenre({title="",subjects=[],description=""}={}){
+export function classifyGenre({id="",title="",subjects=[],description=""}={}){
   const tags=(Array.isArray(subjects)?subjects:[subjects])
     .flatMap(v=>typeof v==="string"?v.split(/[;,|]/):[])
     .map(v=>v.trim()).filter(Boolean);
@@ -92,6 +121,7 @@ export function classifyGenre({title="",subjects=[],description=""}={}){
   if(matches.size>1)return "Unclassified";
   const key=titleKey(title);
   if(known.has(key))return known.get(key);
+  if(knownById.has(id))return knownById.get(id);
   // Only distinctive description phrases; generic text is not a reliable genre.
   const descriptions=new Set();
   for(const [genre,pattern] of rules){
