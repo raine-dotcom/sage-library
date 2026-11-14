@@ -18,5 +18,7 @@ jobs:
         run: |
           node --check scripts/process-books.mjs
           node --check scripts/sync-spaces.mjs
-      - name: Validate complete existing catalog without publishing
-        run: node scripts/sync-spaces.mjs --dry-run
+      - name: Validate existing catalog and export private digest manifest
+        run: |
+          node scripts/sync-spaces.mjs --dry-run --manifest-report="$RUNNER_TEMP/expected-manifests.json"
+          node -e 'const r=require(process.env.RUNNER_TEMP+"/expected-manifests.json");if(r.books.length<1||r.books.some(b=>!b.digest))process.exit(1)'
