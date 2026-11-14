@@ -49,10 +49,13 @@ jobs:
           git pull --rebase origin main
           git push
 
-      - name: Sync verified books to Spaces (only after private secrets are configured)
+      - name: Sync verified books to Spaces (explicitly enabled only)
+        if: ${{ vars.SPACES_IMPORT_ENABLED == 'true' }}
         env:
           SPACES_LIBRARY_IMPORT_BASE_URL: ${{ secrets.SPACES_LIBRARY_IMPORT_BASE_URL }}
           SPACES_LIBRARY_IMPORT_TOKEN: ${{ secrets.SPACES_LIBRARY_IMPORT_TOKEN }}
+          SPACES_CF_ACCESS_CLIENT_ID: ${{ secrets.SPACES_CF_ACCESS_CLIENT_ID }}
+          SPACES_CF_ACCESS_CLIENT_SECRET: ${{ secrets.SPACES_CF_ACCESS_CLIENT_SECRET }}
         run: |
           if [ -z "$SPACES_LIBRARY_IMPORT_BASE_URL" ] || [ -z "$SPACES_LIBRARY_IMPORT_TOKEN" ]; then
             echo "Spaces import not enabled; generated GitHub library remains available."
