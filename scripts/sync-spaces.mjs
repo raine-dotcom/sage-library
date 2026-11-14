@@ -5,7 +5,7 @@
  * Import is incremental/idempotent, does not delete books and cannot publish
  * a partial/mismatched revision.
  */
-import {readFile} from "node:fs/promises";
+import {readFile,writeFile} from "node:fs/promises";
 import {resolve,join} from "node:path";
 import {createHash} from "node:crypto";
 import {fileURLToPath} from "node:url";
@@ -14,6 +14,8 @@ import {classifyGenre,GENRE_SHELVES} from "./genres.mjs";
 const root=resolve(fileURLToPath(new URL("../data/",import.meta.url)));
 const idPattern=/^[a-z0-9][a-z0-9-]{0,179}$/;
 const dryRun=process.argv.includes("--dry-run");
+const reportPath=process.argv.find(x=>x.startsWith("--manifest-report="))?.slice("--manifest-report=".length);
+if(reportPath&&!dryRun)throw Error("Manifest export is allowed only in --dry-run mode");
 const token=process.env.SPACES_LIBRARY_IMPORT_TOKEN||"";
 const value=process.env.SPACES_LIBRARY_IMPORT_BASE_URL||"";
 if(!dryRun&&(!(/^slib_[A-Za-z0-9_-]{40,192}$/).test(token)||!value)){
@@ -51,6 +53,7 @@ async function send(path,payload){
   return parsed;
 }
 let imported=0,unchanged=0,skipped=0;
+const manifests=[];
 const catalog=await readJson(join(root,"index.json"));
 if(!Array.isArray(catalog.books))throw Error("Invalid generated catalog");
 const ids=new Set();
@@ -88,6 +91,7 @@ for(const book of catalog.books){
   // a new catalog version even when the book's page contents are unchanged.
   const digest=createHash("sha256").update(JSON.stringify(manifest),"utf8").digest("hex");
   if(dryRun){
+    manifests.push({sourceBookId:id,totalPages:count,digest});
     console.log("Dry run verified:",id,"genre:",manifest.genre,"pages:",count);
     unchanged++;continue;
   }
@@ -111,5 +115,9 @@ for(const book of catalog.books){
     throw Error("Publish not confirmed for "+id);
   console.log("Verified published:",id,"pages:",count);
   imported++;
+}
+if(reportPath){
+  await writeFile(reportPath,JSON.stringify({books:manifests},null,2)+"\n",{flag:"wx",mode:0o600});
+  console.log("Wrote private manifest digest report (no book text).");
 }
 console.log("Spaces Library sync finished:",{imported,unchanged,skipped,dryRun});
