@@ -28,3 +28,10 @@ test("titles normalize punctuation/accents predictably",()=>{
   assert.equal(titleKey("  Gödel, Escher, Bach—An Eternal Golden Braid! "),
     "godel escher bach an eternal golden braid");
 });
+
+test("legacy source IDs classify existing catalog without reprocessing the books",()=>{
+  assert.equal(classifyGenre({id:"discworld-04-mort",title:"Discworld 04 - Mort"}),"Fantasy");
+  assert.equal(classifyGenre({id:"braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants-epub",title:"Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants.epub"}),"Nature & Environment");
+  assert.equal(classifyGenre({id:"the-hidden-life-of-trees-1-mysteries-of-nature",title:"The Hidden Life of Trees_ 1 (Mysteries of Nature)"}),"Nature & Environment");
+  assert.equal(classifyGenre({id:"untitled-document",title:"Untitled Document"}),"Unclassified");
+});
