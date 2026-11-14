@@ -18,3 +18,5 @@ jobs:
         run: |
           node --check scripts/process-books.mjs
           node --check scripts/sync-spaces.mjs
+      - name: Validate complete existing catalog without publishing
+        run: node scripts/sync-spaces.mjs --dry-run
