@@ -9,28 +9,37 @@ import {readFile} from "node:fs/promises";
 import {resolve,join} from "node:path";
 import {createHash} from "node:crypto";
 import {fileURLToPath} from "node:url";
+import {classifyGenre,GENRE_SHELVES} from "./genres.mjs";
 
 const root=resolve(fileURLToPath(new URL("../data/",import.meta.url)));
 const idPattern=/^[a-z0-9][a-z0-9-]{0,179}$/;
+const dryRun=process.argv.includes("--dry-run");
 const token=process.env.SPACES_LIBRARY_IMPORT_TOKEN||"";
 const value=process.env.SPACES_LIBRARY_IMPORT_BASE_URL||"";
-if(!(/^slib_[A-Za-z0-9_-]{40,192}$/).test(token)||!value){
+if(!dryRun&&(!(/^slib_[A-Za-z0-9_-]{40,192}$/).test(token)||!value)){
   console.error("Spaces import not configured; no requests made.");
   process.exit(2);
 }
-let origin;
-try{
+let origin="";
+if(!dryRun)try{
   const url=new URL(value);
-  if(url.protocol!=="https:"||url.username||url.password||url.search||
-    url.hash||url.pathname!=="/")throw Error("not an HTTPS origin");
+  if(url.protocol!=="https:"||url.hostname!=="spaces.artificiallyferal.com"||
+    url.port||url.username||url.password||url.search||
+    url.hash||url.pathname!=="/")throw Error("not the approved Spaces HTTPS origin");
   origin=url.origin;
 }catch{throw Error("SPACES_LIBRARY_IMPORT_BASE_URL must be a trusted HTTPS origin");}
+const accessId=process.env.SPACES_CF_ACCESS_CLIENT_ID||"";
+const accessSecret=process.env.SPACES_CF_ACCESS_CLIENT_SECRET||"";
+if(!dryRun&&Boolean(accessId)!==Boolean(accessSecret))
+  throw Error("Cloudflare Access client ID and secret must both be set");
 const readJson=async(path)=>JSON.parse(await readFile(path,"utf8"));
 async function send(path,payload){
   const result=await fetch(origin+path,{
     method:"POST",redirect:"error",signal:AbortSignal.timeout(20000),
     headers:{Authorization:"Bearer "+token,"Content-Type":"application/json",
-      Accept:"application/json"},
+      Accept:"application/json",
+      ...(accessId?{"CF-Access-Client-Id":accessId,
+        "CF-Access-Client-Secret":accessSecret}:{})},
     body:JSON.stringify(payload)
   });
   const body=await result.text();
@@ -44,9 +53,12 @@ async function send(path,payload){
 let imported=0,unchanged=0,skipped=0;
 const catalog=await readJson(join(root,"index.json"));
 if(!Array.isArray(catalog.books))throw Error("Invalid generated catalog");
+const ids=new Set();
 for(const book of catalog.books){
   const id=book.id;
-  if(typeof id!=="string"||!idPattern.test(id))throw Error("Unsafe book ID in index");
+  if(typeof id!=="string"||!idPattern.test(id)||ids.has(id))
+    throw Error("Unsafe or duplicate book ID in index");
+  ids.add(id);
   const count=book.totalPages;
   if(!Number.isSafeInteger(count)||count<1||count>5000){
     console.warn("Skipping incomplete book "+id+": "+String(count)+" pages");
@@ -68,12 +80,17 @@ for(const book of catalog.books){
     sourceBookId:id,title:String(info.title||id).slice(0,250),
     author:info.author?String(info.author).slice(0,220):null,
     description:String(info.description||"").slice(0,1500),
-    genre:String(info.genre||book.genre||"Unclassified"),
+    genre:GENRE_SHELVES.includes(info.genre||book.genre)?(info.genre||book.genre):
+      classifyGenre({id,title:info.title,description:info.description}),
     totalPages:count,pageDigest
   };
   // Include metadata in revision identity: a genre correction can publish
   // a new catalog version even when the book's page contents are unchanged.
   const digest=createHash("sha256").update(JSON.stringify(manifest),"utf8").digest("hex");
+  if(dryRun){
+    console.log("Dry run verified:",id,"genre:",manifest.genre,"pages:",count);
+    unchanged++;continue;
+  }
   const prepared=await send("/api/library-import/stage",{...manifest,digest});
   if(prepared.alreadyPublished===true){
     unchanged++;continue;
@@ -95,4 +112,4 @@ for(const book of catalog.books){
   console.log("Verified published:",id,"pages:",count);
   imported++;
 }
-console.log("Spaces Library sync finished:",{imported,unchanged,skipped});
+console.log("Spaces Library sync finished:",{imported,unchanged,skipped,dryRun});
