@@ -12,9 +12,9 @@ Spaces later uses its own private application worker (scripts/pull-sage-library.
 
 ## Development status and testing
 
-This is not merged or enabled. Source metadata and full-catalog verification tests run in .github/workflows/library-pipeline-checks.yml. The CI compares data/spaces-manifest.json to the existing import algorithm's output and ensures older source IDs remain stable.
+**Source-side publication is merged and complete as of November 14, 2026.** Sage PR #1 was merged to main (044239561a25). The separate Publish Spaces Library Snapshot workflow succeeded, creating commit 44f27285e48b with ONLY data/spaces-manifest.json (72 readable books, one excluded zero-page book; no existing book/index/page files changed). Source metadata and full-catalog verification tests passed on the reviewed PR. This is NOT proof of a Spaces database import.
 
-The new committed manifest will not exist on main until the Sage source PR is approved, merged and the first Process Books workflow runs on main. That first run can be a controlled manual workflow_dispatch after separate owner approval, rather than requiring the owner to re-upload all 73 books.
+**The manifest now exists on main.** The first publication used a dedicated metadata-only workflow triggered by the source PR merge, rather than rerunning Process Books or requiring the owner to re-upload 73 books. Later Process Books jobs will regenerate the verified snapshot whenever books are uploaded. Do not rerun book processing just to refresh the manifest.
 
 Do not mistake source CI success for a live Spaces database import. No books were moved to Coolify by this workflow.
 
