@@ -91,7 +91,7 @@ for(const book of catalog.books){
   // a new catalog version even when the book's page contents are unchanged.
   const digest=createHash("sha256").update(JSON.stringify(manifest),"utf8").digest("hex");
   if(dryRun){
-    manifests.push({sourceBookId:id,totalPages:count,digest});
+    manifests.push({...manifest,digest});
     console.log("Dry run verified:",id,"genre:",manifest.genre,"pages:",count);
     unchanged++;continue;
   }
@@ -118,6 +118,6 @@ for(const book of catalog.books){
 }
 if(reportPath){
   await writeFile(reportPath,JSON.stringify({books:manifests},null,2)+"\n",{flag:"wx",mode:0o600});
-  console.log("Wrote private manifest digest report (no book text).");
+  console.log("Wrote private metadata/version manifest (no book pages).");
 }
 console.log("Spaces Library sync finished:",{imported,unchanged,skipped,dryRun});
