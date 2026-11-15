@@ -1,0 +1,53 @@
+name: Publish Spaces Library Snapshot
+
+# Produces only the verified metadata manifest from ALREADY generated pages.
+# Never reprocess source books or rewrite index, metadata, page files, or progress.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-spaces-manifest.mjs'
+      - 'scripts/genres.mjs'
+      - '.github/workflows/publish-spaces-manifest.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Serialize against the existing Process Books workflow.
+concurrency:
+  group: process-books
+  cancel-in-progress: false
+
+jobs:
+  publish-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout existing processed Sage data
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build metadata snapshot only (never process books)
+        run: node scripts/build-spaces-manifest.mjs --write
+      - name: Verify against independent existing importer hash algorithm
+        run: |
+          node scripts/sync-spaces.mjs --dry-run --manifest-report="$RUNNER_TEMP/sage-manifest-check.json"
+          node -e 'const a=require("./data/spaces-manifest.json").books,b=require(process.env.RUNNER_TEMP+"/sage-manifest-check.json").books;if(a.length<1||JSON.stringify(a)!==JSON.stringify(b))process.exit(1)'
+      - name: Commit ONLY the manifest, not book pages or index
+        run: |
+          git config user.name "Library Bot"
+          git config user.email "library-bot@users.noreply.github.com"
+          git add -- data/spaces-manifest.json
+          if git diff --staged --quiet; then
+            echo "Existing Spaces snapshot is already up to date."
+          else
+            git commit -m "chore: publish verified Spaces Library snapshot [skip ci]"
+            # Deliberately no rebase: a concurrently updated source must fail
+            # rather than pair a manifest with a different book revision.
+            git push origin HEAD:main
+          fi
