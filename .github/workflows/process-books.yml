@@ -40,6 +40,9 @@ jobs:
       - name: Process books
         run: node scripts/process-books.mjs
 
+      - name: Generate verified Spaces snapshot manifest
+        run: node scripts/build-spaces-manifest.mjs --write
+
       - name: Commit generated data
         run: |
           git config user.name "Library Bot"
