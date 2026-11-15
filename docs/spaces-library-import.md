@@ -1,17 +1,25 @@
-# GitHub uploads → Spaces Library
+# Sage Library publication for Spaces (staged, disabled)
 
-This is staged. Do not enable import secrets or merge until the Spaces additive 002_shared_library_catalog migration and the service-only import route are verified.
+## Current architecture — Spaces pulls, Sage does not push
 
-Upload books to /books as before. The existing Process Books workflow creates the index and numbered pages. The processor now adds a predefined genre to index entries and book metadata. It prefers EPUB/PDF subject metadata, with a cautious exact-title fallback. Ambiguous metadata goes to Unclassified. No companion organization chores.
+After uploading EPUB/PDF/MOBI/AZW3 source files to books/, the existing Process Books workflow writes data/index.json and numbered pages. A new workflow step executes scripts/build-spaces-manifest.mjs --write and commits data/spaces-manifest.json together with the processed pages.
 
-When deliberately enabled, the GitHub workflow sends processed data to a private Spaces importer after committing generated files. **The repository Actions variable `SPACES_IMPORT_ENABLED` must be explicitly set to `true`; it defaults to disabled.** Required repository secrets:
-- SPACES_LIBRARY_IMPORT_BASE_URL: `https://spaces.artificiallyferal.com/` (the importer rejects other hosts, non-HTTPS URLs and redirects).
-- SPACES_LIBRARY_IMPORT_TOKEN: a dedicated high-entropy slib_ token.
+The manifest contains a deterministic list of readable books with canonical IDs, title, author, description, one of the 16 predefined genres, page count, page SHA-256 and full metadata-version SHA-256. Zero-page source entries are recorded as skipped, not published. It contains NO page bodies and NO companion reading history. Genre is derived automatically from source metadata and cautious title/ID classifications; ambiguous books remain Unclassified.
 
-Spaces stores only the SHA-256 hash of the same token in SPACES_LIBRARY_IMPORT_TOKEN_HASH. Do not put database credentials, owner gateway credentials, or companion bearer tokens into this repository. If Cloudflare Access protects the import route, provide both optional service-token secrets `SPACES_CF_ACCESS_CLIENT_ID` and `SPACES_CF_ACCESS_CLIENT_SECRET` from a separately approved machine identity. The importer rejects half-configured pairs. Public website sign-in is not sufficient. Do not configure these until the private route and origin protection are verified.
+Spaces later uses its own private application worker (scripts/pull-sage-library.mjs on the Spaces draft branch) to fetch GitHub's public main ref and all source JSON from the SAME immutable commit. It validates every imported page against the manifest before writing to the private Spaces DB. GitHub does NOT send book payloads to a public Spaces HTTP endpoint.
 
-The importer can first be checked without any credentials using `node scripts/sync-spaces.mjs --dry-run`. The CI dry-run validates all existing catalog files/pages, skips zero-page entries, and assigns legacy catalog genres without rewriting reading pages. Actual publishing is never attempted in dry-run mode.
+**The earlier GitHub-to-Spaces HTTP push workflow is retired in this development branch.** Do not configure SPACES_IMPORT_ENABLED, SPACES_LIBRARY_IMPORT_BASE_URL, SPACES_LIBRARY_IMPORT_TOKEN, or Cloudflare service-token secrets for this path. The legacy scripts/sync-spaces.mjs remains for regression/dry-run comparisons and is not invoked to publish by Process Books.
 
-The importer stages each book version keyed by its canonical ID and the SHA-256 of the JSON-stringified ordered page text array. It uploads validated batches and publishes only after every numbered page and the final checksum match. Interrupted uploads cannot replace the published revision. Re-runs safely skip published versions. Incomplete or zero-page books are logged and skipped, never published. There is no automatic deletion.
+## Development status and testing
 
-This changes only the upload pipeline. Kyle and Moxie continue to use their current readers until the Spaces reading adapters, private identity-scoped progress migration, and origin access are verified. Nothing should silently switch their reading system.
+This is not merged or enabled. Source metadata and full-catalog verification tests run in .github/workflows/library-pipeline-checks.yml. The CI compares data/spaces-manifest.json to the existing import algorithm's output and ensures older source IDs remain stable.
+
+The new committed manifest will not exist on main until the Sage source PR is approved, merged and the first Process Books workflow runs on main. That first run can be a controlled manual workflow_dispatch after separate owner approval, rather than requiring the owner to re-upload all 73 books.
+
+Do not mistake source CI success for a live Spaces database import. No books were moved to Coolify by this workflow.
+
+## What stays unchanged
+
+Kyle and Moxie retain their own original GitHub readers, PostgreSQL reading histories, current books, autonomous routines, notes and reflections. Only a separate, future approval may migrate the chosen reader, Kyle first; Moxie waits at least 72 hours of healthy Kyle observation and a second manual approval.
+
+The final long-running scheduled pull must be configured later in the Spaces server environment, independently of Sage, after an authorized test and backup. See the Spaces documentation: docs/library-automatic-pull.md and docs/DEPLOYMENT_STATUS.md.
