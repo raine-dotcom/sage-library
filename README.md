@@ -25,3 +25,9 @@ Just drop `.epub` files into `books/` and push. The Action handles the rest.
   - `data/{book-id}/pages/{n}.json` — pages of ~1000 words each
 - GitHub Pages serves everything statically
 - The AI fetches JSON directly — no server needed
+
+## Spaces sync (draft, not activated)
+
+For Raine's Spaces project, GitHub remains the upload/processing source. After processing, the draft workflow also generates data/spaces-manifest.json containing stable book IDs, automatic genre shelves and verifiable content hashes. A separately approved Spaces server task will pull that manifest and numbered pages from a pinned GitHub commit directly into the private Spaces database.
+
+This does not affect current GitHub readers or reading histories. The old GitHub-to-Spaces HTTP push job has been removed from the draft. No new source workflow has been merged to main, no scheduled Spaces pull is running, and neither Kyle nor Moxie has switched reading sources. See docs/spaces-library-import.md for staging/approval details.

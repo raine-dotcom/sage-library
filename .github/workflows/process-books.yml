@@ -40,6 +40,9 @@ jobs:
       - name: Process books
         run: node scripts/process-books.mjs
 
+      - name: Generate verified Spaces snapshot manifest
+        run: node scripts/build-spaces-manifest.mjs --write
+
       - name: Commit generated data
         run: |
           git config user.name "Library Bot"
@@ -48,6 +51,10 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: process books [skip ci]"
           git pull --rebase origin main
           git push
+
+      # Spaces runs its own private, pinned-commit pull job. We intentionally
+      # do not push books to an externally reachable Spaces HTTP endpoint.
+      # The opt-in Spaces job is configured separately on its own server.
 
       - name: Purge jsDelivr cache
         run: curl -sf "https://purge.jsdelivr.net/gh/sinxisterrr/Sage-Library@main/data/index.json" || true

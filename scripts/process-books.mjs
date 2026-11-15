@@ -12,6 +12,7 @@ import { fileURLToPath } from 'url';
 import { execFile } from 'child_process';
 import { promisify } from 'util';
 import os from 'os';
+import {classifyGenre} from './genres.mjs';
 
 const execFileAsync = promisify(execFile);
 
@@ -83,7 +84,8 @@ function parseFilename(filename) {
 // WRITE BOOK DATA (shared between all formats)
 //--------------------------------------------------------------
 
-async function writeBookData({ id, title, author, description, filename, chapterTexts }) {
+async function writeBookData({ id, title, author, description, filename, chapterTexts, subjects = [] }) {
+  const genre=classifyGenre({title,subjects,description});
   const bookDir = path.join(DATA_DIR, id);
   const chaptersDir = path.join(bookDir, 'chapters');
   const pagesDir = path.join(bookDir, 'pages');
@@ -128,7 +130,7 @@ async function writeBookData({ id, title, author, description, filename, chapter
   const totalWords = allText.split(/\s+/).filter(Boolean).length;
 
   const info = {
-    id, title, author, description, filename,
+    id, title, author, description, filename, genre,
     totalWords,
     totalPages: allPages.length,
     totalChapters: chaptersMeta.length,
@@ -136,7 +138,7 @@ async function writeBookData({ id, title, author, description, filename, chapter
   };
   await fs.writeFile(path.join(bookDir, 'info.json'), JSON.stringify(info, null, 2));
 
-  return { id, title, author, description, totalWords, totalPages: allPages.length, totalChapters: chaptersMeta.length };
+  return { id, title, author, description, genre, totalWords, totalPages: allPages.length, totalChapters: chaptersMeta.length };
 }
 
 //--------------------------------------------------------------
@@ -167,7 +169,8 @@ async function processEpub(filePath) {
     }
   }
 
-  return writeBookData({ id, title, author, description, filename, chapterTexts });
+  return writeBookData({ id, title, author, description, filename, chapterTexts,
+    subjects: epub.metadata.subject || epub.metadata.subjects || [] });
 }
 
 //--------------------------------------------------------------
@@ -191,7 +194,8 @@ async function processPdf(filePath) {
     text,
   }));
 
-  return writeBookData({ id, title, author, description: '', filename, chapterTexts });
+  return writeBookData({ id, title, author, description: '', filename, chapterTexts,
+    subjects: [data.info?.Subject, data.info?.Keywords].filter(Boolean) });
 }
 
 //--------------------------------------------------------------
