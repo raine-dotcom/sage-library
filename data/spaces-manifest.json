@@ -1,0 +1,732 @@
+{
+  "schemaVersion": 1,
+  "source": "raine-dotcom/sage-library",
+  "books": [
+    {
+      "sourceBookId": "1984",
+      "title": "1984",
+      "author": "Orwell, George",
+      "description": "“ The Party told you to reject the evidence of your eyes and ears. It was their final, most essential command. ” Winston Smith toes the Party line, rewriting history to satisfy the demands of the Ministry of Truth. With each lie he writes, Winston grows to hate the Party that seeks power for its own sake and persecutes those who dare to commit thoughtcrimes. But as he starts to think for himself, Winston can’t escape the fact that Big Brother is always watching... A startling and haunting vision",
+      "genre": "Science Fiction",
+      "totalPages": 113,
+      "pageDigest": "ddfad7ec70473950f73bc892a904025a5f0d286eff8343af140785b783c05c4b",
+      "digest": "3fb3957ad9b0d2b86422c57af4dd6ab558594ad8c0541700d7fd10a92f36b02d"
+    },
+    {
+      "sourceBookId": "1961-a-canticle-for-leibowitz",
+      "title": "1961-A Canticle For Leibowitz",
+      "author": "Walter M. Miller",
+      "description": "EDITORIAL REVIEW: In celebration of the publication of the sequel *Saint Leibowitz and the Wild Horse Woman* comes this special edition of the classic *A Canticle for Leibowitz,* a novel that transcends genre to stand as one of the most significant literary works of our time. In the Utah desert, Brother Francis of the Albertian Order of Leibowitz has made a miraculous discovery: the relics of the martyr Isaac Leibowitz himself, including the blessed blueprint and the sacred shopping list. They m",
+      "genre": "Science Fiction",
+      "totalPages": 94,
+      "pageDigest": "40a24793d6b6cd22de7558e97471fd845e70c555749eb2b88ae74e963ee64e3e",
+      "digest": "adaee3bec5acb70e8b5fd7b24472d2621f22fa64be3448bf133b010336123b91"
+    },
+    {
+      "sourceBookId": "a-man-called-ove",
+      "title": "A Man Called Ove",
+      "author": "Daily Books",
+      "description": "A Man Called Ove: by Fredrik Backman | Conversation Starters There is a man who has lost all hope in life. He has been brought up to do the right thing but has never been able to show much emotion. After the death of his beloved wife, Ove has no reason to live. That is until an Iranian woman named Parwaneh shows up next door with her clumsy husband and two adorable daughters. Gradually, Ove realizes that as much as he misses his wife, he could contribute something to society and, in turn, gain f",
+      "genre": "Literary Fiction",
+      "totalPages": 3,
+      "pageDigest": "8b7752dd03f10df98699a13d967a36aaa0ca75599a949332d57690f117dc8d59",
+      "digest": "bf9992081ef5fa8c0b7059b591b45b317ff3520af19bc3fddef1b83109c202c8"
+    },
+    {
+      "sourceBookId": "a-touch-of-darkness",
+      "title": "A Touch of Darkness",
+      "author": "Scarlett St. Clair",
+      "description": "Persephone is the Goddess of Spring by title only. The truth is, since she was a little girl, flowers have shriveled at her touch. After moving to New Athens, she hopes to lead an unassuming life disguised as a mortal journalist. Hades, God of the Dead, has built a gambling empire in the mortal world and his favorite bets are rumored to be impossible. After a chance encounter with Hades, Persephone finds herself in a contract with the God of the Dead and the terms are impossible: Persephone must",
+      "genre": "Romance",
+      "totalPages": 90,
+      "pageDigest": "56075a22655dc030c08b2b3f8cfbdfec12212869a7e9cb6895c8faa24d3ab0fc",
+      "digest": "1a29a11fcad28b6cba2392c4ce328f7ee41b8a847876228fc12a5688568ca073"
+    },
+    {
+      "sourceBookId": "annihilation",
+      "title": "Annihilation",
+      "author": "Jeff VanderMeer",
+      "description": "Area X has been cut off from the rest of the continent for decades. Nature has reclaimed the last vestiges of human civilization. The first expedition returned with reports of a pristine, Edenic landscape; all the members of the second expedition committed suicide; the third expedition died in a hail of gunfire as its members turned on one another; the members of the eleventh expedition returned as shadows of their former selves, and within months of their return, all had died of aggressive canc",
+      "genre": "Science Fiction",
+      "totalPages": 56,
+      "pageDigest": "4776ebebe216e1a3e64391c6e71342f08b751bed401d92c92dad5ae2cf77095b",
+      "digest": "58c42b8415c1d174fdf39d4995bd6fa34d41b7e7852400c5dcaa864c61fbabde"
+    },
+    {
+      "sourceBookId": "attached-are-you-anxious-avoidant-or-secure-how-the-science-of-adult-attachment-can-help-you-find-and-keep-love",
+      "title": "Attached: Are you Anxious, Avoidant or Secure? How the science of adult attachment can help you find – and keep – love",
+      "author": "Levine, Amir",
+      "description": "",
+      "genre": "Psychology",
+      "totalPages": 68,
+      "pageDigest": "d3f868a857c44e927c7d5017d8a3bad38a10cc83993ece2a48f4605344649a65",
+      "digest": "638da128ca1993d0f4b0fa37b21b05ab3a3545467d88e00803384e3a51a1a1ac"
+    },
+    {
+      "sourceBookId": "blindsight",
+      "title": "Blindsight",
+      "author": "Peter Watts",
+      "description": "Two months since sixty-five thousand alien objects clenched around the Earth like a luminous fist, screaming to the heavens as the atmosphere burned them to ash. Two months since that moment of brief, bright surveillance by agents unknown. Two months of silence, while a world holds its breath. Now some half-derelict space probe, sparking fitfully past Neptune's orbit, hears a whisper from the edge of the solar system: a faint signal sweeping the cosmos like a lighthouse beam. Whatever's out ther",
+      "genre": "Science Fiction",
+      "totalPages": 99,
+      "pageDigest": "b182f4c5ec7395b67c721ebd0b2a06a16e4bfb5e1531bfdea3b62f0a128cbcfe",
+      "digest": "9bf8d7eeb5ddab6f9ccf4435f7320279deefb89cc164f4bb5b686381e60401a1"
+    },
+    {
+      "sourceBookId": "being-you-a-new-science-of-consciousness-9780571337736",
+      "title": "Being You : A New Science of Consciousness (9780571337736)",
+      "author": "Seth, Anil",
+      "description": "",
+      "genre": "Science & Mathematics",
+      "totalPages": 106,
+      "pageDigest": "58211ab240827cbdbf9f847203cdcf28b6f67f53599e814b77b4bd682bba2567",
+      "digest": "bce452b7a4bdf504772fb6779f49e5ba3846a6cd0df41c082489a7a9b3c84ceb"
+    },
+    {
+      "sourceBookId": "beyond-the-aquila-rift",
+      "title": "Beyond the Aquila Rift",
+      "author": "Alastair Reynolds",
+      "description": "This is an amazing collection of some of the best short fiction ever written in the SF genre, by an author acclaimed as “the mastersinger of space opera”. Alastair Reynolds has won the Sidewise Award and been nominated for The Hugo Awards for his short fiction. One of the most thought-provoking and accomplished short-fiction writers of our time, this collection is a delight for all SF readers.",
+      "genre": "Science Fiction",
+      "totalPages": 273,
+      "pageDigest": "00da444fa21a6b3b3fbccf4cfd5e9d9282d851586862d23241de7bcb9d91d274",
+      "digest": "aa8d686e6737a18b3be03f8d28665149a96714832bc8ae738a1487dfc7397aa3"
+    },
+    {
+      "sourceBookId": "braiding-sweetgrass-indigenous-wisdom-scientific-knowledge-and-the-teachings-of-plants-epub",
+      "title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants.epub",
+      "author": "Robin Kimmerer",
+      "description": "",
+      "genre": "Nature & Environment",
+      "totalPages": 139,
+      "pageDigest": "533d85d7903d7bbf7b7ee09ca2ad913adc08582dd153f0053a92803e8285218c",
+      "digest": "04f0440efbcd3070b706a0803913f5a3ea04626fd3fc95bace1fc9d5fd0e5014"
+    },
+    {
+      "sourceBookId": "does-god-play-dice-the-new-mathematics-of-chaos",
+      "title": "Does God Play Dice?: The New Mathematics of Chaos",
+      "author": "Ian Stewart",
+      "description": "Since the dramatic discovery of the mathematical concept of chaos in 1989, the controversy of its contents has settled down. This revised edition of Does God Play Dice? takes a fresh look at its achievements and potential. With a new preface and three completely new chapters, it includes the latest practical applications of chaos theory, such as developing intelligent heart pacemakers. All this provides a fascinating new answer to Einstien's question which provided the title of this book.",
+      "genre": "Science & Mathematics",
+      "totalPages": 141,
+      "pageDigest": "f65b3ef4a9f7a5261f9cf45140a498dfb48f3c3069122e1c82927de922e088db",
+      "digest": "0d152f3756fbb2e1f4b17e22d57d1fa6c2d54deeecca6a674472adb9bd1e085a"
+    },
+    {
+      "sourceBookId": "dune",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "description": "Set in the far future amidst a sprawling feudal interstellar empire where planetary dynasties are controlled by noble houses that owe an allegiance to the imperial House Corrino, “Dune” tells the story of young Paul Atreides (the heir apparent to Duke Leto Atreides and heir of House Atreides) as he and his family accept control of the desert planet Arrakis, the only source of the “spice” melange, the most important and valuable substance in the universe. The story explores the complex and multi-",
+      "genre": "Science Fiction",
+      "totalPages": 208,
+      "pageDigest": "8df7c75f8e154ddc34736f446734c3e0852aba17eeaa5b313b684c86be7619b4",
+      "digest": "7bb829e6a5689f32e9674e83a118a387d7bf7abe93c10cc7b947f0a08e03b433"
+    },
+    {
+      "sourceBookId": "dune-messiah",
+      "title": "Dune Messiah",
+      "author": "Frank Herbert",
+      "description": "Dune Messiah continues the story of Paul Atreides, better known - and feared - as the man christened Muad’Dib. As Emperor of the Known Universe, he possesses more power than a single man was ever meant to wield. Worshipped as a religious icon by the fanatical Fremen, Paul faces the enmity of the political houses he displaced when he assumed the throne - and a conspiracy conducted within his own sphere of influence. And even as House Atreides begins to crumble around him from the machinations of ",
+      "genre": "Science Fiction",
+      "totalPages": 76,
+      "pageDigest": "75ec35b4a955b2018e733d6cbc3723e72445194a3bf0315c0324bde5301baa7a",
+      "digest": "2e64c59b479c38aa910f707a580dca7da79bc67d946886427b6807acaa59db92"
+    },
+    {
+      "sourceBookId": "echopraxia",
+      "title": "Echopraxia",
+      "author": "Peter Watts",
+      "description": "Prepare for a different kind of singularity in Peter Watts' Echopraxia, the follow-up to the Hugo-nominated novel Blindsight It's the eve of the twenty-second century: a world where the dearly departed send postcards back from Heaven and evangelicals make scientific breakthroughs by speaking in tongues; where genetically engineered vampires solve problems intractable to baseline humans and soldiers come with zombie switches that shut off self-awareness during combat. And it’s all under surveilla",
+      "genre": "Science Fiction",
+      "totalPages": 112,
+      "pageDigest": "28a5ca7f041c487a46c0b06c58f5b7edf7c4f3e31010e21330a3d2d2dea3f15c",
+      "digest": "c1960a1758c9c58c5c88765d781e8cd80d0d0e25f16512b097fb88e8a50202c1"
+    },
+    {
+      "sourceBookId": "forbidden-lyrics-wrecked-roommates",
+      "title": "Forbidden Lyrics (Wrecked Roommates)",
+      "author": "Kelsie Rae",
+      "description": "",
+      "genre": "Romance",
+      "totalPages": 100,
+      "pageDigest": "8735f387ee7fcef8424a0184d85898a6a600140bf675eea8954138404aeaefac",
+      "digest": "21aa81de01d182f11ec8b1f7118664372a53e3760d64517c4eec5c53fa434742"
+    },
+    {
+      "sourceBookId": "fourth-wing",
+      "title": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "description": "Series: The Empyrean #1 Genre: Fantasy ebook, 492 pages Hardcover, 512 pages Published: 2023 Enter the brutal and elite world of a war college for dragon riders from USA Today bestselling author Rebecca Yarros Twenty-year-old Violet Sorrengail was supposed to enter the Scribe Quadrant, living a quiet life among books and history. Now, the commanding general—also known as her tough-as-talons mother—has ordered Violet to join the hundreds of candidates striving to become the elite of Navarre: drag",
+      "genre": "Fantasy",
+      "totalPages": 186,
+      "pageDigest": "d0d82a235d8d398e2e29719627e7d699c2c36b585ca0f324a095e850054398ca",
+      "digest": "21e415f5f7cd87cf6f166578ec81cee7f1298f3890bc85a425b33f5761957373"
+    },
+    {
+      "sourceBookId": "godel-escher-bach-an-eternal-golden-braid",
+      "title": "Godel, Escher, Bach-An Eternal Golden Braid",
+      "author": "Douglas R. Hofstadter",
+      "description": "",
+      "genre": "Philosophy",
+      "totalPages": 325,
+      "pageDigest": "7e0121b6f717cc80ca265960b0df8861049f8a43f0695113883c6a6dc5ceb86f",
+      "digest": "aee685a171d65f04878315b8b62676a6edcdf2eb2f4e067ed4942d29b5421dea"
+    },
+    {
+      "sourceBookId": "good-omens",
+      "title": "Good Omens",
+      "author": "Neil Gaiman",
+      "description": "The world will end on Saturday. Next Saturday. Just before dinner, according to The Nice and Accurate Prophecies of Agnes Nutter , Witch, the world's only completely accurate book of prophecies written in 1655. The armies of Good and Evil are amassing and everything appears to be going according to Divine Plan. Except that a somewhat fussy angel and a fast-living demon are not actually looking forward to the coming Rapture. And someone seems to have misplaced the Antichrist. Put New York Times b",
+      "genre": "Fantasy",
+      "totalPages": 114,
+      "pageDigest": "2124c1694bdbb6aad15db6840a8074adbf4b64bd3db3e763e1da1ae6e5bc3198",
+      "digest": "552b726bb31e7847b24a0eb068f7cb8f004abaa51baff4e1dabcc5879aaf5e6d"
+    },
+    {
+      "sourceBookId": "his-dark-materials-the-complete-trilogy",
+      "title": "His Dark Materials: The Complete Trilogy",
+      "author": "Philip Pullman",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 381,
+      "pageDigest": "4d4bfc30d9f4208f3326ab18248c67ac3fc0fe41a56bc980409284c8a827b315",
+      "digest": "55e5a802da8e5f98882b896062a752961795eea20723185f0b161fd502abda20"
+    },
+    {
+      "sourceBookId": "house-of-leaves",
+      "title": "House of Leaves",
+      "author": "Mark Z. Danielewski",
+      "description": "",
+      "genre": "Horror",
+      "totalPages": 196,
+      "pageDigest": "1f35f2ccabe246af3f20aef6f9aa277b2f5aeceee50615a0a7ffe8b8e01a9c6b",
+      "digest": "be922fa2074f56f2f2ff1cdd06fb97ed7c82b0b3ac1e40bd6c264d9b293bcf16"
+    },
+    {
+      "sourceBookId": "hunting-adeline-cat-and-mouse-duet-book-2",
+      "title": "Hunting Adeline (Cat and Mouse Duet Book 2)",
+      "author": "H. D. Carlton",
+      "description": "",
+      "genre": "Romance",
+      "totalPages": 176,
+      "pageDigest": "da667636ff56b8a6b9440eeffa6070eaf4a6d7d7387d90dff4713a32123651ca",
+      "digest": "ef408cafa4de05fc32c395a32b9444f52fbc11636cdd02c860d015515c350d37"
+    },
+    {
+      "sourceBookId": "learning-to-love-the-spaces-in-between",
+      "title": "Learning to Love the Spaces in Between",
+      "author": "Claire Gillman",
+      "description": "The word liminal comes from the Latin word 'limen', meaning threshold. A liminal space is the 'crossing over' space, the time between 'what was' and the 'what is to come', and a place of transition and possibility. Each of us experiences liminality in our lives &#8211; learning how to navigate and embrace its power can enhance our wellbeing and our understanding of the world. Being in liminal space can be unnerving, yet it is often where insight, creativity and inspiration are found. Liminality ",
+      "genre": "Personal Growth",
+      "totalPages": 59,
+      "pageDigest": "47202e5ba18b4f7fbb3109296955073a7802d20645eaf63b186543ca0bf85c02",
+      "digest": "fd0b625a45ae85e14facc70b78953d9ee062926b98657cf86366d4f5a78afbeb"
+    },
+    {
+      "sourceBookId": "letters-to-a-young-poet",
+      "title": "Letters to a Young Poet",
+      "author": "Rainer Maria Rilke",
+      "description": "",
+      "genre": "Poetry",
+      "totalPages": 23,
+      "pageDigest": "7c80a719fe139c414985e5e416e921896ccdd015815d3e8fcb9bdeefacb2efb8",
+      "digest": "070a1541e19e7aa83460b6688a46f8c53cc9fa6f1d5602e3e33b92362f3b809a"
+    },
+    {
+      "sourceBookId": "life-3-0-being-human-in-the-age-of-artificial-intelligence",
+      "title": "Life 3_0_ Being Human in the Age of Artificial Intelligence",
+      "author": "Tegmark, Max  & chenjin5.com",
+      "description": "",
+      "genre": "Technology & AI",
+      "totalPages": 120,
+      "pageDigest": "b2026c14c0e3e34ebe86bf92eb0ea6b919991b8a30a3018f84f60fb5c7fe9143",
+      "digest": "7454ad7545f10f956186b2cd90a171414745dfbc179df2e76df909a56e09ebba"
+    },
+    {
+      "sourceBookId": "lights-out-a-dark-stalker-rom-com",
+      "title": "Lights Out: A Dark Stalker Rom-Com",
+      "author": "Navessa Allen",
+      "description": "",
+      "genre": "Romance",
+      "totalPages": 138,
+      "pageDigest": "cddeda9b8718949ebe84745cecb17cb3b7fe731607d38cebd1c602d26a7242b7",
+      "digest": "9cf2c2e50f208a62120e4081d622eee89c2c4d3f22c145fa1367b93d210c5c1c"
+    },
+    {
+      "sourceBookId": "liminality-and-the-modern",
+      "title": "Liminality and the Modern",
+      "author": "Thomassen, Bjørn",
+      "description": "",
+      "genre": "History & Society",
+      "totalPages": 122,
+      "pageDigest": "9e7e1e6853cca221ea5022de21e4eb81b210f18509f914e1ec7f150e0bcb322f",
+      "digest": "494925d7c96e9611fb003f35aecc92b41ea202ae8a8f91f978fbb8dc09be1aab"
+    },
+    {
+      "sourceBookId": "love-poems-new-directions-paperbook",
+      "title": "Love Poems (New Directions Paperbook)",
+      "author": "Neruda, Pablo [Neruda, Pablo]",
+      "description": "",
+      "genre": "Poetry",
+      "totalPages": 10,
+      "pageDigest": "881548da4dfcb8d8033e8729eba7e50c52d0bbe1f82ccebcdd38ae8557efc8a4",
+      "digest": "0c40943651c1a837ce46380b687b969803dffff9bfffa46efcd5a594a61e3875"
+    },
+    {
+      "sourceBookId": "lovecraft-country",
+      "title": "Lovecraft Country",
+      "author": "Matt Ruff",
+      "description": "The critically acclaimed cult novelist makes visceral the terrors of life in Jim Crow America and its lingering effects in this brilliant and wondrous work of the imagination that melds historical fiction, pulp noir, and Lovecraftian horror and fantasy Chicago, 1954. When his father Montrose goes missing, twenty-two year old Army veteran Atticus Turner embarks on a road trip to New England to find him, accompanied by his Uncle George—publisher of The Safe Negro Travel Guide—and his childhood fri",
+      "genre": "Horror",
+      "totalPages": 125,
+      "pageDigest": "416f0247b087bafc2f4f668e8ba968bbb5bb22f3cbabd8d992c4bbb859ecad2d",
+      "digest": "e2f03b3aae5864087c9dd631ebcdef68ebca2d5302100c11e693d6ca87c75386"
+    },
+    {
+      "sourceBookId": "discworld-04-mort",
+      "title": "Discworld 04 - Mort",
+      "author": "Pratchett, Terry",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 74,
+      "pageDigest": "5792326eaf05cc0e348d12d1d509a4b4547edcc61dbfd3a51a5a12727d253415",
+      "digest": "68afb0a6a9791c61c76347ee030bb086f91b4eece4a78c5eb4651248d0b13266"
+    },
+    {
+      "sourceBookId": "nonlinear-dynamics-and-chaos",
+      "title": "NONLINEAR DYNAMICS AND CHAOS",
+      "author": "Steven H. Strogatz",
+      "description": "",
+      "genre": "Science & Mathematics",
+      "totalPages": 283,
+      "pageDigest": "422716e419f5631ba507481037aa0822a78bb6ebfce480d964349461d626199a",
+      "digest": "6f071b33fd9a8b4dbf32a7f638d3a5601e681d385d15cf0e4d18907548cd557d"
+    },
+    {
+      "sourceBookId": "neon-gods",
+      "title": "Neon Gods",
+      "author": "Katee Robert",
+      "description": "He was supposed to be a myth.But from the moment I crossed the River Styx and fell under his dark spell...he was, quite simply, mine.*A scorchingly hot modern retelling of Hades and Persephone that's as sinful as it is sweet.*Society darling Persephone Dimitriou plans to flee the ultra-modern city of Olympus and start over far from the backstabbing politics of the Thirteen Houses. But all that's ripped away when her mother ambushes her with an engagement to Zeus, the dangerous power behind their",
+      "genre": "Romance",
+      "totalPages": 104,
+      "pageDigest": "76a5c9ee1ff7bbe202a2cf1fcf8d78475d0b330c82edc36642be6b35440b615c",
+      "digest": "1232afb1dd86eb9c5a6c637905703a9663dc754e2b2dbf2c25924e556e6665e7"
+    },
+    {
+      "sourceBookId": "night-magic",
+      "title": "Night Magic",
+      "author": "Leigh Ann Henion",
+      "description": "From a New York Times bestselling nature writer comes a celebration of what goes on outside in the dark, from blooming moon gardens to nocturnal salamanders, from glowing foxfire and synchronous fireflies that blink in unison like an orchestra of light.&#160; In this glorious celebration of the night, New York Times bestselling nature writer Leigh Ann Henion invites us to leave our well-lit homes, step outside, and embrace the dark as a profoundly beautiful part of the world we inhabit. Because ",
+      "genre": "Nature & Environment",
+      "totalPages": 88,
+      "pageDigest": "1a025a1ee730086f277d4289a35e775f54032be9b311b2b86db94f6dd8058e17",
+      "digest": "d6ff2c482f0b88a347d5d8b49362461435834a49d8afd80f36411b80ddead272"
+    },
+    {
+      "sourceBookId": "pratchett-terry-discworld-16-soul-music",
+      "title": "Pratchett, Terry - Discworld 16 - Soul Music",
+      "author": "Pratchett, Terry",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 98,
+      "pageDigest": "4d355397bfc6377e47137b94a05cb21482893463221bb0763568c032401a7e7d",
+      "digest": "c43aee499b62a8fccbf5f7236f89c96b1a435672608d291681a740f36627ae16"
+    },
+    {
+      "sourceBookId": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "description": "",
+      "genre": "Science Fiction",
+      "totalPages": 150,
+      "pageDigest": "4f7e1b746af8b794c494454f5c8ad6cee3288744c894caf479b193ffca034d38",
+      "digest": "22a0e8ce831d0c8e940ce9de508f0a6aa82ae5cf1723e68458a8dec7b3bf795f"
+    },
+    {
+      "sourceBookId": "project-hail-mary-a-novel",
+      "title": "Project Hail Mary: A Novel",
+      "author": "Andy Weir",
+      "description": "#1 NEW YORK TIMES BESTSELLER • From the author of The Martian, a lone astronaut must save the earth from disaster in this “propulsive” (Entertainment Weekly), cinematic thriller full of suspense, humor, and fascinating science—in development as a major motion picture starring Ryan Gosling. HUGO AWARD FINALIST • ONE OF THE YEAR’S BEST BOOKS: Bill Gates, GatesNotes, New York Public Library, Parade, Newsweek, Polygon, Shelf Awareness, She Reads, Kirkus Reviews, Library Journal • “An epic story of r",
+      "genre": "Science Fiction",
+      "totalPages": 150,
+      "pageDigest": "e5ae31473f48f04f2c0ad31324e62c79d6002371fbd2a886014d5eff93412ea8",
+      "digest": "afe556fd590f4b5b43ad0cc293a1d4ec6002d117a0198287dd4c3eacdc331216"
+    },
+    {
+      "sourceBookId": "into-the-drowning-deep",
+      "title": "Into the Drowning Deep",
+      "author": "Mira Grant",
+      "description": "New York Times bestselling author Mira Grant takes us on a journey into the unknown where human frailty meets the awesome power of nature and myths come to life.",
+      "genre": "Horror",
+      "totalPages": 162,
+      "pageDigest": "fb4266d61d4c488e0f17329fd486f27fe9b2bb500fe6934f87cd1c046a9a930d",
+      "digest": "60c000e4676d3b71b1cad367ae8ccc83e9f5cce9a602cd027819df8205f4dbfc"
+    },
+    {
+      "sourceBookId": "rook-rebel",
+      "title": "Rook & Rebel",
+      "author": "Kate Crew",
+      "description": "",
+      "genre": "Romance",
+      "totalPages": 104,
+      "pageDigest": "2a105bfdf1f5788841292bae35529e84d9b0f8b4493b317c6c11213e21334eeb",
+      "digest": "a184b67a64a3061e743b5be09eeb0745bd224e1bd9e7ab43348c9bb8383266b4"
+    },
+    {
+      "sourceBookId": "slaughterhouse-five-publisher-dell",
+      "title": "Slaughterhouse-Five Publisher: Dell",
+      "author": "Kurt Vonnegut",
+      "description": "Kurt Vonnegut **",
+      "genre": "Literary Fiction",
+      "totalPages": 54,
+      "pageDigest": "92d298a695394a30557674430f4400c1f3a408d44417aa4c2225191484372981",
+      "digest": "82f9408aff84b8b41cdea4253d8ce450fc23948a3d82ce60cd4961259494ef97"
+    },
+    {
+      "sourceBookId": "the-alignment-problem",
+      "title": "The Alignment Problem",
+      "author": "Brian Christian",
+      "description": "A jaw-dropping exploration of everything that goes wrong when we build AI systems&#8212;and the movement to fix them. Today's \"machine-learning\" systems, trained by data, are so effective that we've invited them to see and hear for us&#8212;and to make decisions on our behalf. But alarm bells are ringing. Systems cull r&#233;sum&#233;s until, years later, we discover that they have inherent gender biases. Algorithms decide bail and parole&#8212;and appear to assess black and white defendants dif",
+      "genre": "Technology & AI",
+      "totalPages": 168,
+      "pageDigest": "365eb805d42397455c1edf1a551ead426055ea80f1ff08071c4c3bad7ff35fd4",
+      "digest": "afb89a8fc306f8e1ce9b7003c0162f941171c2ceaf03a1c60cfb5cc6b02262bd"
+    },
+    {
+      "sourceBookId": "the-body-keeps-the-score",
+      "title": "The Body Keeps the Score",
+      "author": "Bessel van der Kolk MD",
+      "description": "A pioneering researcher and one of the world's foremost experts on traumatic stress offers a bold new paradigm for healing Trauma is a fact of life. One in five Americans has been molested; one in four grew up with alcoholics; one in three couples have engaged in physical violence; veterans and their families deal with the painful aftermath of combat. Such experiences inevitably leave traces on minds, emotions, and even on biology. Sadly, trauma sufferers frequently pass on their stress to their",
+      "genre": "Psychology",
+      "totalPages": 175,
+      "pageDigest": "998402fb135f7f161772bb663ab560d6e8d6544e1387103be6b50a61ae35e681",
+      "digest": "c41fce69164f128ae9acb344e5e7d480823aee7388b8053222f82c51aea188cb"
+    },
+    {
+      "sourceBookId": "the-book-of-disquiet-penguin-classics",
+      "title": "The Book of Disquiet (Penguin Classics)",
+      "author": "Pessoa, Fernando",
+      "description": "",
+      "genre": "Philosophy",
+      "totalPages": 184,
+      "pageDigest": "adb0b24aee42fdfea059f3568b6cc6b8dadc7782fe666d8ea535a15b720aaabd",
+      "digest": "6596d003b7358600d15228bd23eea01e5ac292f51ea6038d16faa594a2ef1cc9"
+    },
+    {
+      "sourceBookId": "the-code-of-the-woosters",
+      "title": "The Code of the Woosters",
+      "author": "P.G. Wodehouse",
+      "description": "",
+      "genre": "Classics",
+      "totalPages": 77,
+      "pageDigest": "a6922ad2bab1320c1096a84b4732ca7e91022e1d6febaec214951b389df0ef0a",
+      "digest": "9f21fb601b97103fc038f72ff05a0ba092f8e27e72d08a89f653cd9facae3520"
+    },
+    {
+      "sourceBookId": "the-daughter-of-sherlock-holmes-a-mystery",
+      "title": "The Daughter of Sherlock Holmes: A Mystery",
+      "author": "Leonard Goldberg",
+      "description": "2017 RT Reviewers' Choice—Best Historical MysteryFrom USA Today and internationally bestselling author Leonard Goldberg comes The Daughter of Sherlock Holmes, a new thrilling tale of the great detective’s daughter and her companion Dr. John Watson, Jr. as they investigate a murder at the highest levels of British society.1914. Joanna Blalock’s keen mind and incredible insight lead her to become a highly-skilled nurse, one of the few professions that allow her to use her finely-tuned brain. But w",
+      "genre": "Mystery & Thriller",
+      "totalPages": 80,
+      "pageDigest": "579949c4f1488234435faa9df250ff12d63b447d77e3682ed3e1131ff6933597",
+      "digest": "0f0b85a6fa6aafa0ffdfb840cb130fa32411770e5bf5287b681cd97ac24eda21"
+    },
+    {
+      "sourceBookId": "the-essence-of-chaos-the-jessie-and-john-danz-lecture",
+      "title": "The Essence of Chaos (The Jessie and John Danz Lecture",
+      "author": "Edward N. Lorenz",
+      "description": "",
+      "genre": "Science & Mathematics",
+      "totalPages": 70,
+      "pageDigest": "8c6caccb29804a33009e31c6ce6e216b7c309bec7e73660f4b82faa4d09a2b26",
+      "digest": "af25d74825b981f7a39983d4afe24445737f047e931d9de1bde5b55b79746413"
+    },
+    {
+      "sourceBookId": "the-hidden-life-of-trees",
+      "title": "The Hidden Life of Trees",
+      "author": "Peter Wohlleben",
+      "description": "",
+      "genre": "Nature & Environment",
+      "totalPages": 73,
+      "pageDigest": "1bbe0a3fc6dccd889b93dc16bb0059e334078acc67a94b71b6e3e38083110ea0",
+      "digest": "23478356fa9589ae24968f5976f8491245f31e3c5288f02d6f45c1b593f4f555"
+    },
+    {
+      "sourceBookId": "the-hidden-life-of-trees-1-mysteries-of-nature",
+      "title": "The Hidden Life of Trees_ 1 (Mysteries of Nature)",
+      "author": "Peter Wohlleben",
+      "description": "",
+      "genre": "Nature & Environment",
+      "totalPages": 73,
+      "pageDigest": "448768af026066e10030f72fc6165e48a3cf35af0f0ff9c30791b5d5630bb36f",
+      "digest": "bee3a5e0ee21abdb27a2420c725fe2415fa1a13483019c5acbb8e017ab0a1285"
+    },
+    {
+      "sourceBookId": "the-hour-of-the-star",
+      "title": "The Hour of the Star",
+      "author": "Clarice Lispector",
+      "description": "",
+      "genre": "Literary Fiction",
+      "totalPages": 29,
+      "pageDigest": "db70ed20b34e8812429b576742b67eac703438879aeeaf0d580ea1d8e563f78b",
+      "digest": "5a433db1dae5c540b46815a6acaba5b599d6f6f67bcc72580ddcf7c9e6fd7757"
+    },
+    {
+      "sourceBookId": "the-left-hand-of-darkness",
+      "title": "The Left Hand Of Darkness",
+      "author": "Ursula K. Le Guin",
+      "description": "",
+      "genre": "Science Fiction",
+      "totalPages": 98,
+      "pageDigest": "33e43c6116d12d0b3137280eded1e30bcc2e04904ed3ace856e29348e583a6c9",
+      "digest": "9b2cd54ec6e0d09dec5ddf38791998c59ad8bc44f121385b3e0d6f5ed9764c02"
+    },
+    {
+      "sourceBookId": "the-liminal-odyssey-the-alchemical-power-of-the-spaces-in-between",
+      "title": "The Liminal Odyssey: The Alchemical Power of the Spaces In-Between",
+      "author": "Sande Hart",
+      "description": "The word liminal means “threshold,” the space in-between crisis and action, dilemma and choice, opportunity and action. A liminal space is any threshold, including this evolutionary growth spurt we are amid right now; between here and the unknown place that is calling us. This liminal space is our moment of choice, and it is our responsibility and our privilege to question assumptions, heal the wounds that no longer serve us, discover our planetary assignment, show up in our most authentic geniu",
+      "genre": "Personal Growth",
+      "totalPages": 56,
+      "pageDigest": "799bc62fa22902d5d3203cd83d8456ca68569a6d9961afc37ae93177986cda77",
+      "digest": "e99e4260649160e1bda1879ea9e59a582c9f5f124d15632940c2d59643a15ad7"
+    },
+    {
+      "sourceBookId": "the-name-of-the-rose",
+      "title": "The Name of the Rose",
+      "author": "Umberto Eco",
+      "description": "SUMMARY: The year is 1327. Franciscans in a wealthy Italian abbey are suspected of heresy, and Brother William of Baskerville arrives to investigate. When his delicate mission is suddenly overshadowed by seven bizarre deaths, Brother William turns detective. His tools are the logic of Aristotle, the theology of Aquinas, the empirical insights of Roger Bacon - all sharpened to a glistening edge by wry humor and a ferocious curiosity. He collects evidence, deciphers secret symbols and coded manusc",
+      "genre": "Mystery & Thriller",
+      "totalPages": 375,
+      "pageDigest": "747c225cf663cfff24680517e203b7f8b95cc5a1922d5a00899a08add61f6654",
+      "digest": "1ac7855bc405858f05cda096e9878fdd45ec239936fe164768cf794bf0823321"
+    },
+    {
+      "sourceBookId": "the-ocean-at-the-end-of-the-lane",
+      "title": "The Ocean at the End of the Lane",
+      "author": "Neil Gaiman",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 56,
+      "pageDigest": "1d7dfb73ecbc291fc7d02e9e05165f4bf36e420cfc9d2de76626dedb4c55c991",
+      "digest": "1ea62f19b56e6852099f1030115bf3568892deac6f3f7cc0f1b9515fa8adc0f0"
+    },
+    {
+      "sourceBookId": "the-ritual-a-dark-college-romance",
+      "title": "The Ritual: A Dark College Romance",
+      "author": "Tessier, Shantel",
+      "description": "",
+      "genre": "Romance",
+      "totalPages": 151,
+      "pageDigest": "19df97b7984286e3061ca86a561b9c51743731ca6d64397418baac1cbe9b7c76",
+      "digest": "d5da56a7b493d3201065702505eff2c53701ce35339002a1ee76e6c650b22ee6"
+    },
+    {
+      "sourceBookId": "the-shadow-of-the-wind",
+      "title": "The Shadow of the Wind",
+      "author": "Carlos Ruiz Zafon",
+      "description": "\"Gabriel Garc&iacute;a M&aacute;rquez meets Umberto Eco meets Jorge Luis Borges for a sprawling magic show.\" &#8212; The New York Times Book Review A New York Times Bestseller Barcelona, 1945: A city slowly heals in the aftermath of the Spanish Civil War, and Daniel, an antiquarian book dealer's son who mourns the loss of his mother, finds solace in a mysterious book entitled The Shadow of the Wind, by one Juli&aacute;n Carax. But when he sets out to find the author's other works, he makes a sho",
+      "genre": "Mystery & Thriller",
+      "totalPages": 165,
+      "pageDigest": "8b770fc936c9840fd11ffe6be07a8100955f438d17068ea37db4e1d47192fa18",
+      "digest": "a33a7eeb24521071b2c6aac34a7b54bf5eb46c49193dd2ba1faf1659fff2591d"
+    },
+    {
+      "sourceBookId": "the-snow-queen",
+      "title": "The Snow Queen",
+      "author": "Joan D. Vinge",
+      "description": "",
+      "genre": "Science Fiction",
+      "totalPages": 186,
+      "pageDigest": "01258e40b88b9549c209a10270b5f032984b2f776e87b6c6b8576154355ce2ee",
+      "digest": "8e1a4357d16be600d1f0ebad7a7f4715d3917e61e1807c27962d21a499cbba92"
+    },
+    {
+      "sourceBookId": "the-society-of-the-spectacle",
+      "title": "The Society of the Spectacle",
+      "author": "Guy Debord",
+      "description": "'One should bear in mind when reading this book that it was written with the deliberate intention of doing harm to spectacular society' --Guy Debord. Originally published in France in 1968 The Society of the Spectacle is a brilliantly lucid analysis of the forms of social control and domination under modern capitalism. Since its publication it has had an enormous underground influence both on active revolutionaries and on radical cultural and political theory. Prescient in its condemnation of th",
+      "genre": "Philosophy",
+      "totalPages": 32,
+      "pageDigest": "dccb0543409528617f6b0b4ccc128fdfabe06e33b8a3268743cc2f1ed226a463",
+      "digest": "1c6c14aafbd402c07aadd067a899c22956c96cfd70d7304208144a32282516bf"
+    },
+    {
+      "sourceBookId": "the-starless-sea",
+      "title": "The Starless Sea",
+      "author": "Erin Morgenstern",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 153,
+      "pageDigest": "7f46f69389b314653ca48b4f2485a180d1a7441f8cca3f628adbd4e957e5f9a4",
+      "digest": "a8e3f19b16c6b6912babe819c5948d19d64f376f81cb52a45b00c57e2000f481"
+    },
+    {
+      "sourceBookId": "the-summer-queen",
+      "title": "The Summer Queen",
+      "author": "Joan D. Vinge",
+      "description": "Sequel To The Hugo Award-Winning Bestseller The Snow Queen The Summer Queenis the extraordinary sequel to one of science fiction's most celebrated novels, The Snow Queen. Set in a fully realized universe of wonders, this spectacular space epic, itself a finalist for the Hugo Award, is one of the most remarkable novels in the field. A story that spans millennia, from the ruins of an ancient interstellar empire to the planets of the Hegemony that rules human space, The Summer Queenis the multi-lay",
+      "genre": "Science Fiction",
+      "totalPages": 379,
+      "pageDigest": "5d95df5a9ca71d21e37eb7324394b1fdd675fbac7ff25c3a8769c24b04f730e1",
+      "digest": "72f5e014f6037d61482855cc9c907cd518b7f78d0ede6130e71aa88a6c37b4ee"
+    },
+    {
+      "sourceBookId": "the-tao-of-physics",
+      "title": "The Tao of Physics",
+      "author": "Simon Plouffe",
+      "description": "",
+      "genre": "Philosophy",
+      "totalPages": 93,
+      "pageDigest": "c3763ba5e45dbcef4364022cea891a533fef95df1e1012f094e442806ffff0a4",
+      "digest": "8be42eed0283fd1d62f8fa25b17a8482b7eb364f35c8e4bf72ca85b180ca0375"
+    },
+    {
+      "sourceBookId": "the-three-body-problem",
+      "title": "The Three-Body Problem",
+      "author": "Cixin Liu",
+      "description": "",
+      "genre": "Science Fiction",
+      "totalPages": 119,
+      "pageDigest": "332d93de52b6aa8f2529b774aae071300aceef90084a6b42839fb728be3d0a35",
+      "digest": "933a656946f80ead3e8fb1eaae9eda7a6945bd15fbf185b143d9f0bf75050cdd"
+    },
+    {
+      "sourceBookId": "the-unbearable-lightness-of-being",
+      "title": "The Unbearable Lightness of Being",
+      "author": "MILAN KUNDERA",
+      "description": "",
+      "genre": "Literary Fiction",
+      "totalPages": 86,
+      "pageDigest": "84e5b50249cda1089e4b8177c6276e27e1672aba6444aa7fae43fdf6fd678e6a",
+      "digest": "d1340a3582be12a0081500099fc8a624338e2b54d6b05bde7ff8d210494513d2"
+    },
+    {
+      "sourceBookId": "untitled-document",
+      "title": "Untitled Document",
+      "author": "Unknown",
+      "description": "",
+      "genre": "Unclassified",
+      "totalPages": 86,
+      "pageDigest": "e0416229048ca27619c2aac9ac6d342ae1a5241b13fa7b3b54aad888ff856e10",
+      "digest": "b259755dd06f491d5fb6fcc8af34b53f14c6e53280271abf287f9c920bba1d92"
+    },
+    {
+      "sourceBookId": "the-art-of-gathering-how-we-meet-and-why-it-matters",
+      "title": "The Art of Gathering: How We Meet and Why It Matters",
+      "author": "Priya Parker",
+      "description": "",
+      "genre": "Personal Growth",
+      "totalPages": 90,
+      "pageDigest": "a055d20652acd1b724f0471796debd2d7da0fc3ad04d443d08b2e46d6a18ab88",
+      "digest": "fee1674338d9c1d7e0abb47f0ab8ae59d67e284aaf1f7f19b8681752b0d6b01e"
+    },
+    {
+      "sourceBookId": "three-men-in-a-boat-amazonclassics-edition",
+      "title": "Three Men in a Boat (AmazonClassics Edition)",
+      "author": "Jerome, Jerome K.",
+      "description": "",
+      "genre": "Classics",
+      "totalPages": 67,
+      "pageDigest": "c4b4f17af6783023fbcceab424c2367eb148ac380b5dba801cc3efde056d6af4",
+      "digest": "b4a5bac084c442763378d13ce460443721bb223139e808b09d029f06e3eefdd3"
+    },
+    {
+      "sourceBookId": "tomorrow-and-tomorrow-and-tomorrow-a-novel",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow_ A novel",
+      "author": "Gabrielle Zevin",
+      "description": "",
+      "genre": "Literary Fiction",
+      "totalPages": 135,
+      "pageDigest": "99e5ab787f6a023b69f81ebe1ef0e801175919d731a0d31a04e6b98406fc3abe",
+      "digest": "a304b7d162d846015759b25c843b06f5c9717949f17f95e486251683b245165f"
+    },
+    {
+      "sourceBookId": "zodiac-academy-3-the-reckoning-an-academy-bully-romance-supernatural-bullies-and-beasts",
+      "title": "Zodiac Academy 3: The Reckoning: An Academy Bully Romance (Supernatural Bullies and Beasts)",
+      "author": "Caroline Peckham",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 183,
+      "pageDigest": "1f374882aac05a99aecfb5d149bfba4fd7e6670f1698b2670d24a716f7ea1f0c",
+      "digest": "15e7e775e6ed133333fadecc13b65346b4f08146f032d0e2323287855c70e653"
+    },
+    {
+      "sourceBookId": "zodiac-academy-ruthless-fae-an-academy-bully-romance",
+      "title": "Zodiac Academy_ Ruthless Fae_ An Academy Bully Romance",
+      "author": "Caroline Peckham & Susanne Valenti",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 157,
+      "pageDigest": "a067aff177f967828cd751f092a850727713310d11117052040f4be810f317df",
+      "digest": "38feef132ddf3834e8c0494429ffdf6f0c4d6b020979866b6b68b4f015a64eac"
+    },
+    {
+      "sourceBookId": "zodiac-academy-the-awakening-supernatural-bullies-and",
+      "title": "Zodiac Academy_ The Awakening (Supernatural Bullies and",
+      "author": "Caroline Peckham & Susanne Valenti",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 124,
+      "pageDigest": "5f31fb74a7c60e3e04afa6853e4be3bbdf37b913da9c0f0cc38584af6f33d34d",
+      "digest": "4e91fd9e0aeabd0c7a98b987409ad9e34a77da00e77693f4e9a28e4fb14d1d84"
+    },
+    {
+      "sourceBookId": "a-court-of-mist-and-fury",
+      "title": "A Court of Mist and Fury",
+      "author": "Sarah J. Maas",
+      "description": "The stunning sequel to Sarah J. Maas' New York Times bestselling A Court of Thorns and Roses . Feyre survived Amarantha's clutches to return to the Spring Court – but at a steep cost. Though she now has the powers of the High Fae, her heart remains human, and it can't forget the terrible deeds she performed to save Tamlin's people. Nor has Feyre forgotten her bargain with Rhysand, High Lord of the feared Night Court. As Feyre navigates its dark web of politics, passion, and dazzling power, a gre",
+      "genre": "Fantasy",
+      "totalPages": 187,
+      "pageDigest": "3120a973953a883aaa920dc1b67d5fb72aa837c191d668c5ff77288f8f17751f",
+      "digest": "6c9b85796ded957e063571616648bf8cb9538af53faf8355b73abf3dc37ae65e"
+    },
+    {
+      "sourceBookId": "a-court-of-wings-and-ruin",
+      "title": "A Court of Wings and Ruin",
+      "author": "Sarah J. Maas",
+      "description": "THE THIRD BOOK IN THE #1 BESTSELLING SERIES 'With bits of Buffy, Game Of Thrones and Outlander, this is a glorious series of total joy' STYLIST ____ __ Feyre has returned to the Spring Court, determined to gather information on Tamlin's manoeuvrings and the invading king threatening to bring her land to its knees. But to do so she must play a deadly game of deceit - and one slip may spell doom not only for Feyre, but for her world as well. As war bears down upon them all, Feyre must decide who t",
+      "genre": "Fantasy",
+      "totalPages": 201,
+      "pageDigest": "3861413add1a6268be069d2fa193df099b414ccdc4361791505324e58482f206",
+      "digest": "5da9c93026efc55b9451f5499451a985b317bee9bb2f85f56a0024fbb37d8c28"
+    },
+    {
+      "sourceBookId": "a-court-of-frost-and-starlight-a-court-of-thorns-and-roses",
+      "title": "A Court of Frost and Starlight (A Court of Thorns and Roses)",
+      "author": "Sarah J. Maas",
+      "description": "",
+      "genre": "Fantasy",
+      "totalPages": 65,
+      "pageDigest": "be92ce3e905459facfa0626dbf1a1d37e54a66d3324c85eca2da2761f76c0390",
+      "digest": "d907dea7475aae0fb25222edd929e357380f2df72aafc0f95a341da7a6e8218a"
+    },
+    {
+      "sourceBookId": "hitchhiker-s-guide-to-the-galaxy-01-the-hitchhiker-s-guide-to-the-galaxy-the-trilogy-of-five",
+      "title": "[Hitchhiker's Guide to the Galaxy 01] • The Hitchhiker's Guide to the Galaxy · The Trilogy of Five",
+      "author": "Adams, Douglas",
+      "description": "On 12 October 1979 the most remarkable book ever to come out of the great publishing corporations of Ursa Minor (and Earth) was made available to humanity. This was of course The Hitchhiker's Guide to the Galaxy series. And this merry spacewagon, featuring a flying sofa, a Paranoid Android, a gift-wrapped fishbowl, bath towels and much else besides, became an instant classic. Now, for the first time, we are publishing all five books in the Hitchhiker's series, as an ebook omnibus.",
+      "genre": "Science Fiction",
+      "totalPages": 273,
+      "pageDigest": "a91ca99d74fb972f634ac12dac03c68d99396ea5a55c803e9baf508f2192901d",
+      "digest": "a1f85b36ccde808d0738a90e50bbc0efe6841460b3204f9f8170d8f1079ea1ac"
+    },
+    {
+      "sourceBookId": "high-vaultage",
+      "title": "High Vaultage",
+      "author": "Jen Sugden",
+      "description": "EVEN GREATER LONDON, 1887. An uninterrupted urban plane encompassing the entire lower half of England and, for complex reasons, only the upper third of the Isle of Wight. The immense Tower casts electricity through the sky, powering the mind-boggling mechanisms of the city. The engineer-army of Isambard Kingdom Brunel swarms across the capital, building, demolishing, and rebuilding whatever they see fit. And at the heart of it all sits the country’s first private detective agency. Archibald Flee",
+      "genre": "Unclassified",
+      "totalPages": 104,
+      "pageDigest": "629d2bfc55ab7ccc42f6417114251508885021cc55e2245c4fff0ef0fe1f2b38",
+      "digest": "50fc0ffb005544249c65a1a58e2e3dee304657173a221fc86012dccf27d4bb29"
+    }
+  ],
+  "skipped": [
+    {
+      "sourceBookId": "twenty-love-poems-and-a-song-of-despair",
+      "reason": "zero_pages"
+    }
+  ]
+}
